@@ -1,9 +1,8 @@
-<!--  
-   VIVO Sample Data
 
-  This data can be loaded into a new VIVO to demonstrate features of VIVO.  See
-  the VIVO Technical Documentation 
--->
+#  VIVO Sample Data
+#
+#  This data can be loaded into a new VIVO to demonstrate features of VIVO.  See
+#  the VIVO Technical Documentation 
 
 @prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
