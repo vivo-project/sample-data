@@ -4,82 +4,71 @@
 #  This data can be loaded into a new VIVO to demonstrate features of VIVO.  See
 #  the VIVO Technical Documentation 
 
-@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
-@prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
-@prefix cito:  <http://purl.org/spar/cito/> .
 @prefix geo:   <http://aims.fao.org/aos/geopolitical.owl#> .
-@prefix vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix bibo:  <http://purl.org/ontology/bibo/> .
 @prefix vivo:  <http://vivoweb.org/ontology/core#> .
-@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix obo:   <http://purl.obolibrary.org/obo/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
-@prefix c4o:   <http://purl.org/spar/c4o/> .
 
 <http://vivo.mydomain.edu/individual/n1927>
         a                vivo:AcademicDepartment , foaf:Organization ;
-        rdfs:label       "Physics"^^xsd:string ;
+        rdfs:label       "Physics"@en-US ;
         obo:BFO_0000050  <http://vivo.mydomain.edu/individual/n469> ;
         obo:RO_0000053   <http://vivo.mydomain.edu/individual/n6446> ;
-        vivo:overview    "The Physics Department is in the College of Science of Sample University" ;
+        vivo:overview    "The Physics Department is in the College of Science of Sample University"@en-US ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n2543> , <http://vivo.mydomain.edu/individual/n4531> , <http://vivo.mydomain.edu/individual/n6053> .
 
 <http://vivo.mydomain.edu/individual/n1736>
         a                     vivo:FacultyMember ;
-        rdfs:label            "Roberts, Patricia "^^xsd:string ;
+        rdfs:label            "Roberts, Patricia" ;
         obo:ARG_2000028       <http://vivo.mydomain.edu/individual/n329> ;
         obo:RO_0000053        <http://vivo.mydomain.edu/individual/n1630> , <http://vivo.mydomain.edu/individual/n2022> , <http://vivo.mydomain.edu/individual/n722> , <http://vivo.mydomain.edu/individual/n5345> , <http://vivo.mydomain.edu/individual/n7238> , <http://vivo.mydomain.edu/individual/n5685> , <http://vivo.mydomain.edu/individual/n7199> , <http://vivo.mydomain.edu/individual/n269> , <http://vivo.mydomain.edu/individual/n6983> ;
         obo:RO_0000056        <http://vivo.mydomain.edu/individual/n563> ;
         vivo:hasResearchArea  <http://vivo.mydomain.edu/individual/n6561> , <http://vivo.mydomain.edu/individual/n2854> , <http://vivo.mydomain.edu/individual/n1454> , <http://vivo.mydomain.edu/individual/n5504> ;
-        vivo:overview         "My research is focused on Derrida and the nature of political discourse in the era of electracy." ;
+        vivo:overview         "My research is focused on Derrida and the nature of political discourse in the era of electracy."@en-US ;
         vivo:relatedBy        <http://vivo.mydomain.edu/individual/n3390> , <http://vivo.mydomain.edu/individual/n4221> , <http://vivo.mydomain.edu/individual/n2808> , <http://vivo.mydomain.edu/individual/n2375> , <http://vivo.mydomain.edu/individual/n1189> , <http://vivo.mydomain.edu/individual/n3684> .
 
 <http://vivo.mydomain.edu/individual/n2837>
         a                vivo:AcademicDepartment ;
-        rdfs:label       "History"^^xsd:string ;
+        rdfs:label       "History"@en-US ;
         obo:BFO_0000050  <http://vivo.mydomain.edu/individual/n3910> ;
-        vivo:overview    "The History Department is in the College of Arts and Humanities of Sample University." ;
+        vivo:overview    "The History Department is in the College of Arts and Humanities of Sample University."@en-US ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n3674> , <http://vivo.mydomain.edu/individual/n2681> , <http://vivo.mydomain.edu/individual/n86> .
 
 <http://vivo.mydomain.edu/individual/n6810>
         a                vivo:University ;
-        rdfs:label       "Sample University"^^xsd:string ;
+        rdfs:label       "Sample University"@en-US ;
         obo:ARG_2000028  <http://vivo.mydomain.edu/individual/n1083> ;
         obo:BFO_0000051  <http://vivo.mydomain.edu/individual/n469> , <http://vivo.mydomain.edu/individual/n3910> ;
         obo:RO_0001025   <http://dbpedia.org/resource/Kansas> ;
-        vivo:overview    "Sample University is a <em><strong>fictional university</strong></em> created to demonstrate VIVO features." .
+        vivo:overview    "Sample University is a <em><strong>fictional university</strong></em> created to demonstrate VIVO features."@en-US .
 
 <http://vivo.mydomain.edu/individual/n3910>
         a                vivo:College ;
-        rdfs:label       "College of Arts and Humanties"^^xsd:string ;
+        rdfs:label       "College of Arts and Humanities"@en-US ;
         obo:BFO_0000050  <http://vivo.mydomain.edu/individual/n6810> ;
         obo:BFO_0000051  <http://vivo.mydomain.edu/individual/n2837> , <http://vivo.mydomain.edu/individual/n4085> , <http://vivo.mydomain.edu/individual/n4109> ;
         vivo:assigns     <http://vivo.mydomain.edu/individual/n4221> ;
-        vivo:overview    "A college of Sample University." .
+        vivo:overview    "A college of Sample University."@en-US .
 
 <http://vivo.mydomain.edu/individual/n128>
         a                     vivo:FacultyMember ;
-        rdfs:label            "Powell, Suzanne Katrinsky"^^xsd:string ;
+        rdfs:label            "Powell, Suzanne Katrinsky" ;
         obo:ARG_2000028       <http://vivo.mydomain.edu/individual/n4654> ;
         vivo:geographicFocus  geo:Poland ;
-        vivo:overview         "Vocal performance" ;
+        vivo:overview         "Vocal performance"@en-US ;
         vivo:relatedBy        <http://vivo.mydomain.edu/individual/n8066> , <http://vivo.mydomain.edu/individual/n2969> .
 
 <http://vivo.mydomain.edu/individual/n469>
         a                vivo:College ;
-        rdfs:label       "College of Science"^^xsd:string ;
+        rdfs:label       "College of Science"@en-US ;
         obo:BFO_0000050  <http://vivo.mydomain.edu/individual/n6810> ;
         obo:BFO_0000051  <http://vivo.mydomain.edu/individual/n7257> , <http://vivo.mydomain.edu/individual/n1927> ;
-        vivo:overview    "A college of Sample University" ;
+        vivo:overview    "A college of Sample University"@en-US ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n1810> .
 
 <http://vivo.mydomain.edu/individual/n563>
@@ -87,22 +76,22 @@
         obo:RO_0000057           <http://vivo.mydomain.edu/individual/n4762> , <http://vivo.mydomain.edu/individual/n1736> ;
         obo:RO_0002234           <http://vivo.mydomain.edu/individual/n3390> ;
         vivo:dateTimeInterval    <http://vivo.mydomain.edu/individual/n7064> ;
-        vivo:departmentOrSchool  "English"^^xsd:string ;
-        vivo:majorField          "Rhetoric"^^xsd:string .
+        vivo:departmentOrSchool  "English"@en-US ;
+        vivo:majorField          "Rhetoric"@en-US .
 
 <http://vivo.mydomain.edu/individual/n3954>
         a                         bibo:AcademicArticle ;
-        rdfs:label                "Derrida's influence on political rhetoric"^^xsd:string ;
-        bibo:issue                "2"^^xsd:string ;
-        bibo:pageEnd              "54"^^xsd:string ;
-        bibo:pageStart            "1"^^xsd:string ;
-        bibo:volume               "15"^^xsd:string ;
+        rdfs:label                "Derrida's influence on political rhetoric"@en-US ;
+        bibo:issue                "2" ;
+        bibo:pageEnd              "54" ;
+        bibo:pageStart            "1" ;
+        bibo:volume               "15" ;
         vivo:dateTimeValue        <http://vivo.mydomain.edu/individual/n869> ;
         vivo:hasPublicationVenue  <http://vivo.mydomain.edu/individual/n6748> ;
         vivo:relatedBy            <http://vivo.mydomain.edu/individual/n7123> , <http://vivo.mydomain.edu/individual/n2808> , <http://vivo.mydomain.edu/individual/n10598> .
 
 <http://vivo.mydomain.edu/individual/n7578>
-        bibo:volume         "15"^^xsd:string ;
+        bibo:volume         "15" ;
         vivo:dateTimeValue  <http://vivo.mydomain.edu/individual/n869> .
 
 <http://vivo.mydomain.edu/individual/n4860>
@@ -111,7 +100,7 @@
 
 <http://vivo.mydomain.edu/individual/n6737>
         a                   bibo:Book ;
-        rdfs:label          "Derrida and Political Discourse"^^xsd:string ;
+        rdfs:label          "Derrida and Political Discourse"@en-US ;
         bibo:isbn10         "022635511X" ;
         vivo:dateTimeValue  <http://vivo.mydomain.edu/individual/n190> ;
         vivo:publisher      <http://vivo.mydomain.edu/individual/n6795> ;
@@ -119,7 +108,7 @@
 
 <http://vivo.mydomain.edu/individual/n3728>
         a                   bibo:AudioDocument ;
-        rdfs:label          "Solo performance of Aida with Philadelphia Orchestra"^^xsd:string ;
+        rdfs:label          "Solo performance of Aida with Philadelphia Orchestra"@en-US ;
         vivo:dateTimeValue  <http://vivo.mydomain.edu/individual/n176> ;
         vivo:relatedBy      <http://vivo.mydomain.edu/individual/n8066> .
 
@@ -128,16 +117,16 @@
 
 <http://vivo.mydomain.edu/individual/n4221>
         a                   vivo:AwardReceipt ;
-        rdfs:label          "Teacher of the Year (Roberts, Patricia  - 2001)"^^xsd:string ;
+        rdfs:label          "Teacher of the Year (Roberts, Patricia  - 2001)"@en-US ;
         vivo:assignedBy     <http://vivo.mydomain.edu/individual/n3910> ;
         vivo:dateTimeValue  <http://vivo.mydomain.edu/individual/n7195> ;
         vivo:relates        <http://vivo.mydomain.edu/individual/n3407> , <http://vivo.mydomain.edu/individual/n1736> .
 
 <http://vivo.mydomain.edu/individual/n7979>
         a                         bibo:Chapter ;
-        rdfs:label                "Twitter as Rhetoric"^^xsd:string ;
-        bibo:pageEnd              "289"^^xsd:string ;
-        bibo:pageStart            "245"^^xsd:string ;
+        rdfs:label                "Twitter as Rhetoric"@en-US ;
+        bibo:pageEnd              "289" ;
+        bibo:pageStart            "245" ;
         vivo:dateTimeValue        <http://vivo.mydomain.edu/individual/n1784> ;
         vivo:hasPublicationVenue  <http://vivo.mydomain.edu/individual/n5987> ;
         vivo:publisher            <http://vivo.mydomain.edu/individual/n6356> ;
@@ -145,94 +134,92 @@
 
 <http://vivo.mydomain.edu/individual/n5987>
         a                         bibo:Book ;
-        rdfs:label                "Social Media as Discourse"^^xsd:string ;
+        rdfs:label                "Social Media as Discourse"@en-US ;
         vivo:dateTimeValue        <http://vivo.mydomain.edu/individual/n1784> ;
         vivo:publicationVenueFor  <http://vivo.mydomain.edu/individual/n7979> ;
         vivo:publisher            <http://vivo.mydomain.edu/individual/n6356> .
 
 <http://vivo.mydomain.edu/individual/n3787>
         a              vivo:ResearchOrganization , vivo:GovernmentAgency , vivo:FundingOrganization ;
-        rdfs:label     "National Science Foundation"^^xsd:string ;
-        vitro:modTime  "2016-11-02T17:52:03"^^xsd:dateTime ;
+        rdfs:label     "National Science Foundation"@en-US ;
         vivo:assigns   <http://vivo.mydomain.edu/individual/n6053> .
 
 <http://vivo.mydomain.edu/individual/n489>
         a               vivo:University ;
-        rdfs:label      "California Institute of Technology"^^xsd:string ;
-        vitro:modTime   "2016-11-02T17:43:01"^^xsd:dateTime ;
+        rdfs:label      "California Institute of Technology"@en-US ;
         vivo:relatedBy  <http://vivo.mydomain.edu/individual/n2264> .
 
 <http://vivo.mydomain.edu/individual/n733>
         a                     vivo:FacultyMember ;
-        rdfs:label            "Bogart, Andrew "^^xsd:string ;
+        rdfs:label            "Bogart, Andrew " ;
         obo:ARG_2000028       <http://vivo.mydomain.edu/individual/n5229> ;
         vivo:hasResearchArea  <http://vivo.mydomain.edu/individual/n2854> ;
         vivo:relatedBy        <http://vivo.mydomain.edu/individual/n2757> , <http://vivo.mydomain.edu/individual/n10598> .
 
 <http://vivo.mydomain.edu/individual/n6870>
         a                vivo:FacultyMember ;
-        rdfs:label       "Peters, Jasper I"^^xsd:string ;
+        rdfs:label       "Peters, Jasper I" ;
         obo:ARG_2000028  <http://vivo.mydomain.edu/individual/n2984> ;
         obo:RO_0000053   <http://vivo.mydomain.edu/individual/n7303> ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n1810> , <http://vivo.mydomain.edu/individual/n4531> , <http://vivo.mydomain.edu/individual/n5058> , <http://vivo.mydomain.edu/individual/n1467> , <http://vivo.mydomain.edu/individual/n2264> .
 
 <http://vivo.mydomain.edu/individual/n3674>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Associate Professor"^^xsd:string ;
+        rdfs:label             "Associate Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n37> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n2837> , <http://vivo.mydomain.edu/individual/n725> .
 
 <http://vivo.mydomain.edu/individual/n4531>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Professor"^^xsd:string ;
+        rdfs:label             "Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n439> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n6870> , <http://vivo.mydomain.edu/individual/n1927> .
 
 <http://vivo.mydomain.edu/individual/n2757>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Associate Professor"^^xsd:string ;
+        rdfs:label             "Associate Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n2330> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n733> , <http://vivo.mydomain.edu/individual/n4085> .
 
 <http://vivo.mydomain.edu/individual/n2681>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Professor"^^xsd:string ;
+        rdfs:label             "Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n603> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n2837> , <http://vivo.mydomain.edu/individual/n725> .
 
 <http://vivo.mydomain.edu/individual/n86>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Assistant Professor"^^xsd:string ;
+        rdfs:label             "Assistant Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n7690> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n2837> , <http://vivo.mydomain.edu/individual/n725> .
 
 <http://vivo.mydomain.edu/individual/n2969>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Assistant Professor"^^xsd:string ;
+        rdfs:label             "Assistant Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n4039> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n128> , <http://vivo.mydomain.edu/individual/n4109> .
 
 <http://vivo.mydomain.edu/individual/n3684>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Professor"^^xsd:string ;
+        rdfs:label             "Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n2890> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n4085> , <http://vivo.mydomain.edu/individual/n1736> .
 
 <http://vivo.mydomain.edu/individual/n1467>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Professor"^^xsd:string ;
+        rdfs:label             "Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n8131> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n6870> , <http://vivo.mydomain.edu/individual/n7257> .
 
 <http://vivo.mydomain.edu/individual/n2264>
         a                      vivo:FacultyPosition ;
-        rdfs:label             "Associate Professor"^^xsd:string ;
+        rdfs:label             "Associate Professor"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n14018> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n6870> , <http://vivo.mydomain.edu/individual/n489> .
 
 <http://vivo.mydomain.edu/individual/n3390>
         a                vivo:AwardedDegree ;
-        rdfs:label       "Roberts, Patricia : Ph.D. Doctor of Philosophy"^^xsd:string ;
+        rdfs:label       "Roberts, Patricia : Ph.D. Doctor of Philosophy"@en-US ;
         obo:RO_0002353   <http://vivo.mydomain.edu/individual/n563> ;
         vivo:assignedBy  <http://vivo.mydomain.edu/individual/n4762> ;
         vivo:relates     <http://vivoweb.org/ontology/degree/academicDegree98> , <http://vivo.mydomain.edu/individual/n1736> .
@@ -266,34 +253,34 @@
 
 <http://vivo.mydomain.edu/individual/n269>
         a                      vivo:TeacherRole ;
-        rdfs:label             "Instructor"^^xsd:string ;
+        rdfs:label             "Instructor"@en-US ;
         obo:BFO_0000054        <http://vivo.mydomain.edu/individual/n3694> ;
         obo:RO_0000052         <http://vivo.mydomain.edu/individual/n1736> ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n5929> .
 
 <http://vivo.mydomain.edu/individual/n6983>
         a                      vivo:TeacherRole ;
-        rdfs:label             "Instructor"^^xsd:string ;
+        rdfs:label             "Instructor"@en-US ;
         obo:BFO_0000054        <http://vivo.mydomain.edu/individual/n1246> ;
         obo:RO_0000052         <http://vivo.mydomain.edu/individual/n1736> ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n901> .
 
 <http://vivo.mydomain.edu/individual/n7257>
         a                vivo:AcademicDepartment ;
-        rdfs:label       "Chemistry"^^xsd:string ;
+        rdfs:label       "Chemistry"@en-US ;
         obo:BFO_0000050  <http://vivo.mydomain.edu/individual/n469> ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n1467> .
 
 <http://vivo.mydomain.edu/individual/n4085>
         a                      vivo:AcademicDepartment ;
-        rdfs:label             "English"^^xsd:string ;
+        rdfs:label             "English"@en-US ;
         obo:BFO_0000050        <http://vivo.mydomain.edu/individual/n3910> ;
         vivo:contributingRole  <http://vivo.mydomain.edu/individual/n5345> ;
         vivo:relatedBy         <http://vivo.mydomain.edu/individual/n2757> , <http://vivo.mydomain.edu/individual/n3684> .
 
 <http://vivo.mydomain.edu/individual/n4109>
         a                vivo:AcademicDepartment ;
-        rdfs:label       "Music"^^xsd:string ;
+        rdfs:label       "Music"@en-US ;
         obo:BFO_0000050  <http://vivo.mydomain.edu/individual/n3910> ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n2969> .
 
@@ -504,60 +491,60 @@
 
 <http://vivo.mydomain.edu/individual/n1810>
         a                      vivo:FacultyAdministrativePosition ;
-        rdfs:label             "Associate Dean for Research"^^xsd:string ;
+        rdfs:label             "Associate Dean for Research"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n4155> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n469> , <http://vivo.mydomain.edu/individual/n6870> .
 
 <http://vivo.mydomain.edu/individual/n6053>
         a                      vivo:Grant ;
-        rdfs:label             "NSF Postdoctoral training award" ;
+        rdfs:label             "NSF Postdoctoral training award"@en-US ;
         vivo:assignedBy        <http://vivo.mydomain.edu/individual/n3787> ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n7274> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n2816> , <http://vivo.mydomain.edu/individual/n6446> , <http://vivo.mydomain.edu/individual/n1158> , <http://vivo.mydomain.edu/individual/n1927> .
 
 <http://vivo.mydomain.edu/individual/n3547>
         a            vcard:Title ;
-        vcard:title  "Postdoctoral Researcher"^^xsd:string .
+        vcard:title  "Postdoctoral Researcher"@en-US .
 
 <http://vivo.mydomain.edu/individual/n1447>
         a            vcard:Title ;
-        vcard:title  "Assistant Professor"^^xsd:string .
+        vcard:title  "Assistant Professor"@en-US .
 
 <http://vivo.mydomain.edu/individual/n1132>
         a            vcard:Title ;
-        vcard:title  "Associate Professor"^^xsd:string .
+        vcard:title  "Associate Professor"@en-US .
 
 <http://vivo.mydomain.edu/individual/n6241>
         a            vcard:Title ;
-        vcard:title  "Professor Emeritus"^^xsd:string .
+        vcard:title  "Professor Emeritus"@en-US .
 
 <http://vivo.mydomain.edu/individual/n5218>
         a            vcard:Title ;
-        vcard:title  "Professor and Chair"^^xsd:string .
+        vcard:title  "Professor and Chair"@en-US .
 
 <http://vivo.mydomain.edu/individual/n4983>
         a            vcard:Title ;
-        vcard:title  "Professor and Associate Dean"^^xsd:string .
+        vcard:title  "Professor and Associate Dean"@en-US .
 
 <http://vivo.mydomain.edu/individual/n7431>
         a                vivo:InvitedTalk ;
-        rdfs:label       "Derrida and the Electracy Conundrum"^^xsd:string ;
+        rdfs:label       "Derrida and the Electracy Conundrum"@en-US ;
         obo:BFO_0000050  <http://vivo.mydomain.edu/individual/n4869> ;
         obo:BFO_0000055  <http://vivo.mydomain.edu/individual/n2022> .
 
 <http://vivo.mydomain.edu/individual/n1246>
         a                vivo:Course ;
-        rdfs:label       "ENC 1114 -- Introduction to Rhetoric"^^xsd:string ;
+        rdfs:label       "ENC 1114 -- Introduction to Rhetoric"@en-US ;
         obo:BFO_0000055  <http://vivo.mydomain.edu/individual/n6983> .
 
 <http://vivo.mydomain.edu/individual/n3694>
         a                vivo:Course ;
-        rdfs:label       "ENC 4013 -- Senior Studies"^^xsd:string ;
+        rdfs:label       "ENC 4013 -- Senior Studies"@en-US ;
         obo:BFO_0000055  <http://vivo.mydomain.edu/individual/n269> .
 
 <http://vivo.mydomain.edu/individual/n2543>
         a                      vivo:PostdocPosition ;
-        rdfs:label             "Postdoctoral Researcher"^^xsd:string ;
+        rdfs:label             "Postdoctoral Researcher"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n6986> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n1158> , <http://vivo.mydomain.edu/individual/n1927> .
 
@@ -677,105 +664,105 @@
 
 <http://vivo.mydomain.edu/individual/n6795>
         a                 vivo:Publisher ;
-        rdfs:label        "University of California Press"^^xsd:string ;
+        rdfs:label        "University of California Press"@en-US ;
         vivo:publisherOf  <http://vivo.mydomain.edu/individual/n4860> , <http://vivo.mydomain.edu/individual/n6737> .
 
 <http://vivo.mydomain.edu/individual/n6356>
         a                 vivo:Publisher ;
-        rdfs:label        "John Wiley"^^xsd:string ;
+        rdfs:label        "John Wiley"@en-US ;
         vivo:publisherOf  <http://vivo.mydomain.edu/individual/n7979> , <http://vivo.mydomain.edu/individual/n5987> .
 
 <http://vivo.mydomain.edu/individual/n2992>
         a           vcard:URL ;
-        rdfs:label  "Home Page" ;
+        rdfs:label  "Home Page"@en-US ;
         vivo:rank   "1"^^xsd:int ;
         vcard:url   "http://sample.edu"^^xsd:anyURI .
 
 <http://vivo.mydomain.edu/individual/n5345>
         a                       vivo:LeaderRole ;
-        rdfs:label              "Chair"^^xsd:string ;
+        rdfs:label              "Chair"@en-US ;
         obo:RO_0000052          <http://vivo.mydomain.edu/individual/n1736> ;
         vivo:dateTimeInterval   <http://vivo.mydomain.edu/individual/n1750> ;
         vivo:roleContributesTo  <http://vivo.mydomain.edu/individual/n4085> .
 
 <http://vivo.mydomain.edu/individual/n476>
         a                foaf:Person ;
-        rdfs:label       "Stevens, Emily K"^^xsd:string ;
+        rdfs:label       "Stevens, Emily K" ;
         obo:ARG_2000028  <http://vivo.mydomain.edu/individual/n7188> ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n7123> .
 
 <http://vivo.mydomain.edu/individual/n4869>
         a                bibo:Conference ;
-        rdfs:label       "17th Annual Conference on Philosophy and Rhetoric"^^xsd:string ;
+        rdfs:label       "17th Annual Conference on Philosophy and Rhetoric"@en-US ;
         obo:BFO_0000051  <http://vivo.mydomain.edu/individual/n7431> .
 
 <http://vivo.mydomain.edu/individual/n2022>
         a                      vivo:PresenterRole ;
-        rdfs:label             "Keynote Speaker"^^xsd:string ;
+        rdfs:label             "Keynote Speaker"@en-US ;
         obo:BFO_0000054        <http://vivo.mydomain.edu/individual/n7431> ;
         obo:RO_0000052         <http://vivo.mydomain.edu/individual/n1736> ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n4343> .
 
 <http://vivo.mydomain.edu/individual/n1116>
         a                    vcard:Address ;
-        vcard:country        "USA"^^xsd:string ;
-        vcard:locality       "Small City"^^xsd:string ;
-        vcard:postalCode     "21626"^^xsd:string ;
-        vcard:region         "Kansas"^^xsd:string ;
-        vcard:streetAddress  "1400 Maple Street; "^^xsd:string .
+        vcard:country        "USA"@en-US ;
+        vcard:locality       "Small City"@en-US ;
+        vcard:postalCode     "21626" ;
+        vcard:region         "Kansas"@en-US ;
+        vcard:streetAddress  "1400 Maple Street; "@en-US .
 
 <http://vivo.mydomain.edu/individual/n722>
         a                       vivo:EditorRole ;
-        rdfs:label              "Associate Editor"^^xsd:string ;
+        rdfs:label              "Associate Editor"@en-US ;
         obo:RO_0000052          <http://vivo.mydomain.edu/individual/n1736> ;
         vivo:dateTimeInterval   <http://vivo.mydomain.edu/individual/n6945> ;
         vivo:roleContributesTo  <http://vivo.mydomain.edu/individual/n6748> .
 
 <http://vivo.mydomain.edu/individual/n5685>
         a                       vivo:EditorRole ;
-        rdfs:label              "Editor in Chief"^^xsd:string ;
+        rdfs:label              "Editor in Chief"@en-US ;
         obo:RO_0000052          <http://vivo.mydomain.edu/individual/n1736> ;
         vivo:dateTimeInterval   <http://vivo.mydomain.edu/individual/n2585> ;
         vivo:roleContributesTo  <http://vivo.mydomain.edu/individual/n6748> .
 
 <http://vivo.mydomain.edu/individual/n6561>
         a                    skos:Concept ;
-        rdfs:label           "Electracy"^^xsd:string ;
+        rdfs:label           "Electracy"@en-US ;
         vivo:researchAreaOf  <http://vivo.mydomain.edu/individual/n1736> .
 
 <http://vivo.mydomain.edu/individual/n2854>
         a                    skos:Concept ;
-        rdfs:label           "Rhetoric"^^xsd:string ;
+        rdfs:label           "Rhetoric"@en-US ;
         vivo:researchAreaOf  <http://vivo.mydomain.edu/individual/n733> , <http://vivo.mydomain.edu/individual/n1736> .
 
 <http://vivo.mydomain.edu/individual/n1454>
         a                    skos:Concept ;
-        rdfs:label           "Derrida"^^xsd:string ;
+        rdfs:label           "Derrida"@en-US ;
         vivo:researchAreaOf  <http://vivo.mydomain.edu/individual/n1736> .
 
 <http://vivo.mydomain.edu/individual/n5504>
         a                    skos:Concept ;
-        rdfs:label           "Political discourse"^^xsd:string ;
+        rdfs:label           "Political discourse"@en-US ;
         vivo:researchAreaOf  <http://vivo.mydomain.edu/individual/n1736> .
 
 <http://vivo.mydomain.edu/individual/n3396>
         a                    skos:Concept ;
-        rdfs:label           "American Civil War"^^xsd:string ;
+        rdfs:label           "American Civil War"@en-US ;
         vivo:researchAreaOf  <http://vivo.mydomain.edu/individual/n725> .
 
 <http://vivo.mydomain.edu/individual/n2238>
         a                    skos:Concept ;
-        rdfs:label           "Civil War Reconstruction"^^xsd:string ;
+        rdfs:label           "Civil War Reconstruction"@en-US ;
         vivo:researchAreaOf  <http://vivo.mydomain.edu/individual/n725> .
 
 <http://vivo.mydomain.edu/individual/n6523>
         a                   skos:Concept ;
-        rdfs:label          "Quantum Physics"^^xsd:string ;
+        rdfs:label          "Quantum Physics"@en-US ;
         vivo:subjectAreaOf  <http://vivo.mydomain.edu/individual/n5058> .
 
 <http://vivo.mydomain.edu/individual/n8140>
         a            vcard:Email ;
-        vcard:email  "sample@sample.edu"^^xsd:string .
+        vcard:email  "sample@sample.edu" .
 
 <http://vivo.mydomain.edu/individual/n4712>
         a                vcard:Individual ;
@@ -820,20 +807,20 @@
 
 <http://vivo.mydomain.edu/individual/n4762>
         a               vivo:University ;
-        rdfs:label      "Harvard University"^^xsd:string ;
+        rdfs:label      "Harvard University"@en-US ;
         obo:RO_0000056  <http://vivo.mydomain.edu/individual/n563> ;
         vivo:assigns    <http://vivo.mydomain.edu/individual/n3390> .
 
 <http://vivo.mydomain.edu/individual/n725>
         a                     vivo:EmeritusFaculty ;
-        rdfs:label            "Pierce, Franklin J"^^xsd:string ;
+        rdfs:label            "Pierce, Franklin J" ;
         obo:ARG_2000028       <http://vivo.mydomain.edu/individual/n5959> ;
         vivo:hasResearchArea  <http://vivo.mydomain.edu/individual/n3396> , <http://vivo.mydomain.edu/individual/n2238> ;
         vivo:relatedBy        <http://vivo.mydomain.edu/individual/n3674> , <http://vivo.mydomain.edu/individual/n2681> , <http://vivo.mydomain.edu/individual/n86> .
 
 <http://vivo.mydomain.edu/individual/n5058>
         a                      vivo:AdvisingRelationship , vivo:PostdocOrFellowAdvisingRelationship ;
-        rdfs:label             "Peters, Jasper I advising Martinez, Claudia  (Postdoc)"^^xsd:string ;
+        rdfs:label             "Peters, Jasper I advising Martinez, Claudia  (Postdoc)"@en-US ;
         vivo:dateTimeInterval  <http://vivo.mydomain.edu/individual/n5617> ;
         vivo:hasSubjectArea    <http://vivo.mydomain.edu/individual/n6523> ;
         vivo:relates           <http://vivo.mydomain.edu/individual/n7303> , <http://vivo.mydomain.edu/individual/n6870> , <http://vivo.mydomain.edu/individual/n1515> , <http://vivo.mydomain.edu/individual/n1158> .
@@ -846,47 +833,47 @@
 
 <http://vivo.mydomain.edu/individual/n3407>
         a               vivo:Award ;
-        rdfs:label      "Teacher of the Year"^^xsd:string ;
+        rdfs:label      "Teacher of the Year"@en-US ;
         vivo:relatedBy  <http://vivo.mydomain.edu/individual/n4221> .
 
 <http://vivo.mydomain.edu/individual/n159>
         a                 vcard:Name ;
-        vivo:middleName   "Katrinsky"^^xsd:string ;
-        vcard:familyName  "Powell"^^xsd:string ;
-        vcard:givenName   "Suzanne"^^xsd:string .
+        vivo:middleName   "Katrinsky" ;
+        vcard:familyName  "Powell" ;
+        vcard:givenName   "Suzanne" .
 
 <http://vivo.mydomain.edu/individual/n8112>
         a                 vcard:Name ;
-        vivo:middleName   "J"^^xsd:string ;
-        vcard:familyName  "Pierce"^^xsd:string ;
-        vcard:givenName   "Franklin"^^xsd:string .
+        vivo:middleName   "J" ;
+        vcard:familyName  "Pierce" ;
+        vcard:givenName   "Franklin" .
 
 <http://vivo.mydomain.edu/individual/n6557>
         a                 vcard:Name ;
-        vcard:familyName  "Martinez"^^xsd:string ;
-        vcard:givenName   "Claudia"^^xsd:string .
+        vcard:familyName  "Martinez" ;
+        vcard:givenName   "Claudia" .
 
 <http://vivo.mydomain.edu/individual/n5680>
         a                 vcard:Name ;
-        vcard:familyName  "Roberts"^^xsd:string ;
-        vcard:givenName   "Patricia"^^xsd:string .
+        vcard:familyName  "Roberts"@en-US ;
+        vcard:givenName   "Patricia"@en-US .
 
 <http://vivo.mydomain.edu/individual/n5938>
         a                 vcard:Name ;
-        vivo:middleName   "K"^^xsd:string ;
-        vcard:familyName  "Stevens"^^xsd:string ;
-        vcard:givenName   "Emily"^^xsd:string .
+        vivo:middleName   "K" ;
+        vcard:familyName  "Stevens" ;
+        vcard:givenName   "Emily" .
 
 <http://vivo.mydomain.edu/individual/n5481>
         a                 vcard:Name ;
-        vcard:familyName  "Bogart"^^xsd:string ;
-        vcard:givenName   "Andrew"^^xsd:string .
+        vcard:familyName  "Bogart" ;
+        vcard:givenName   "Andrew" .
 
 <http://vivo.mydomain.edu/individual/n1490>
         a                 vcard:Name ;
-        vivo:middleName   "I"^^xsd:string ;
-        vcard:familyName  "Peters"^^xsd:string ;
-        vcard:givenName   "Jasper"^^xsd:string .
+        vivo:middleName   "I" ;
+        vcard:familyName  "Peters" ;
+        vcard:givenName   "Jasper" .
 
 <http://vivo.mydomain.edu/individual/n7199>
         a                       vivo:ReviewerRole ;
@@ -896,11 +883,11 @@
 
 <http://vivo.mydomain.edu/individual/n7736>
         a                vcard:Telephone , vcard:Fax ;
-        vcard:telephone  "555 999 4444"^^xsd:string .
+        vcard:telephone  "555 999 4444" .
 
 <http://vivo.mydomain.edu/individual/n6093>
         a                vcard:Telephone ;
-        vcard:telephone  "555 555 1212"^^xsd:string .
+        vcard:telephone  "555 555 1212" .
 
 <http://vivo.mydomain.edu/individual/n7303>
         a               vivo:AdvisorRole ;
@@ -909,42 +896,42 @@
 
 <http://vivo.mydomain.edu/individual/n700>
         a                      vivo:Committee ;
-        rdfs:label             "University Undergraduate Curriculum Committee"^^xsd:string ;
+        rdfs:label             "University Undergraduate Curriculum Committee"@en-US ;
         vivo:contributingRole  <http://vivo.mydomain.edu/individual/n7238> .
 
 <http://vivo.mydomain.edu/individual/n3854>
         a                      vivo:Committee ;
-        rdfs:label             "College of Arts and Humanities Tenure Committee"^^xsd:string ;
+        rdfs:label             "College of Arts and Humanities Tenure Committee"@en-US ;
         vivo:contributingRole  <http://vivo.mydomain.edu/individual/n1630> .
 
 <http://vivo.mydomain.edu/individual/n1158>
         a                vivo:Postdoc ;
-        rdfs:label       "Martinez, Claudia "^^xsd:string ;
+        rdfs:label       "Martinez, Claudia" ;
         obo:ARG_2000028  <http://vivo.mydomain.edu/individual/n4712> ;
         obo:RO_0000053   <http://vivo.mydomain.edu/individual/n2816> , <http://vivo.mydomain.edu/individual/n1515> ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n2543> , <http://vivo.mydomain.edu/individual/n6053> , <http://vivo.mydomain.edu/individual/n5058> .
 
 <http://vivo.mydomain.edu/individual/n6748>
         a                         bibo:Journal ;
-        rdfs:label                "Journal of Political Rhetoric"^^xsd:string ;
+        rdfs:label                "Journal of Political Rhetoric"@en-US ;
         vivo:contributingRole     <http://vivo.mydomain.edu/individual/n722> , <http://vivo.mydomain.edu/individual/n5685> ;
         vivo:publicationVenueFor  <http://vivo.mydomain.edu/individual/n3954> .
 
 <http://vivo.mydomain.edu/individual/n1271>
         a                      bibo:Journal ;
-        rdfs:label             "Journal of Derrida"^^xsd:string ;
+        rdfs:label             "Journal of Derrida"@en-US ;
         vivo:contributingRole  <http://vivo.mydomain.edu/individual/n7199> .
 
 <http://vivo.mydomain.edu/individual/n1630>
         a                       vivo:MemberRole ;
-        rdfs:label              "Member"^^xsd:string ;
+        rdfs:label              "Member"@en-US ;
         obo:RO_0000052          <http://vivo.mydomain.edu/individual/n1736> ;
         vivo:dateTimeInterval   <http://vivo.mydomain.edu/individual/n4097> ;
         vivo:roleContributesTo  <http://vivo.mydomain.edu/individual/n3854> .
 
 <http://vivo.mydomain.edu/individual/n7238>
         a                       vivo:MemberRole ;
-        rdfs:label              "Chair"^^xsd:string ;
+        rdfs:label              "Chair"@en-US ;
         obo:RO_0000052          <http://vivo.mydomain.edu/individual/n1736> ;
         vivo:dateTimeInterval   <http://vivo.mydomain.edu/individual/n6177> ;
         vivo:roleContributesTo  <http://vivo.mydomain.edu/individual/n700> .
@@ -952,7 +939,7 @@
 <http://dbpedia.org/resource/Kansas>
         obo:RO_0001015  <http://vivo.mydomain.edu/individual/n6810> .
 
-geo:Poland  rdfs:label          "Poland"^^xsd:string ;
+geo:Poland  rdfs:label          "Poland"@en-US ;
         vivo:geographicFocusOf  <http://vivo.mydomain.edu/individual/n128> .
 
 <http://vivoweb.org/ontology/degree/academicDegree98>
