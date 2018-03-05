@@ -24,7 +24,7 @@
 
 <http://vivo.mydomain.edu/individual/n1736>
         a                     vivo:FacultyMember ;
-        rdfs:label            "Roberts, Patricia" ;
+        rdfs:label            "Roberts, Patricia"@en-US ;
         obo:ARG_2000028       <http://vivo.mydomain.edu/individual/n329> ;
         obo:RO_0000053        <http://vivo.mydomain.edu/individual/n1630> , <http://vivo.mydomain.edu/individual/n2022> , <http://vivo.mydomain.edu/individual/n722> , <http://vivo.mydomain.edu/individual/n5345> , <http://vivo.mydomain.edu/individual/n7238> , <http://vivo.mydomain.edu/individual/n5685> , <http://vivo.mydomain.edu/individual/n7199> , <http://vivo.mydomain.edu/individual/n269> , <http://vivo.mydomain.edu/individual/n6983> ;
         obo:RO_0000056        <http://vivo.mydomain.edu/individual/n563> ;
@@ -57,7 +57,7 @@
 
 <http://vivo.mydomain.edu/individual/n128>
         a                     vivo:FacultyMember ;
-        rdfs:label            "Powell, Suzanne Katrinsky" ;
+        rdfs:label            "Powell, Suzanne Katrinsky"@en-US ;
         obo:ARG_2000028       <http://vivo.mydomain.edu/individual/n4654> ;
         vivo:geographicFocus  geo:Poland ;
         vivo:overview         "Vocal performance"@en-US ;
@@ -151,14 +151,14 @@
 
 <http://vivo.mydomain.edu/individual/n733>
         a                     vivo:FacultyMember ;
-        rdfs:label            "Bogart, Andrew" ;
+        rdfs:label            "Bogart, Andrew"@en-US ;
         obo:ARG_2000028       <http://vivo.mydomain.edu/individual/n5229> ;
         vivo:hasResearchArea  <http://vivo.mydomain.edu/individual/n2854> ;
         vivo:relatedBy        <http://vivo.mydomain.edu/individual/n2757> , <http://vivo.mydomain.edu/individual/n10598> .
 
 <http://vivo.mydomain.edu/individual/n6870>
         a                vivo:FacultyMember ;
-        rdfs:label       "Peters, Jasper I" ;
+        rdfs:label       "Peters, Jasper I"@en-US ;
         obo:ARG_2000028  <http://vivo.mydomain.edu/individual/n2984> ;
         obo:RO_0000053   <http://vivo.mydomain.edu/individual/n7303> ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n1810> , <http://vivo.mydomain.edu/individual/n4531> , <http://vivo.mydomain.edu/individual/n5058> , <http://vivo.mydomain.edu/individual/n1467> , <http://vivo.mydomain.edu/individual/n2264> .
@@ -687,7 +687,7 @@
 
 <http://vivo.mydomain.edu/individual/n476>
         a                foaf:Person ;
-        rdfs:label       "Stevens, Emily K" ;
+        rdfs:label       "Stevens, Emily K"@en-US ;
         obo:ARG_2000028  <http://vivo.mydomain.edu/individual/n7188> ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n7123> .
 
@@ -813,7 +813,7 @@
 
 <http://vivo.mydomain.edu/individual/n725>
         a                     vivo:EmeritusFaculty ;
-        rdfs:label            "Pierce, Franklin J" ;
+        rdfs:label            "Pierce, Franklin J"@en-US ;
         obo:ARG_2000028       <http://vivo.mydomain.edu/individual/n5959> ;
         vivo:hasResearchArea  <http://vivo.mydomain.edu/individual/n3396> , <http://vivo.mydomain.edu/individual/n2238> ;
         vivo:relatedBy        <http://vivo.mydomain.edu/individual/n3674> , <http://vivo.mydomain.edu/individual/n2681> , <http://vivo.mydomain.edu/individual/n86> .
@@ -838,20 +838,20 @@
 
 <http://vivo.mydomain.edu/individual/n159>
         a                 vcard:Name ;
-        vivo:middleName   "Katrinsky" ;
-        vcard:familyName  "Powell" ;
-        vcard:givenName   "Suzanne" .
+        vivo:middleName   "Katrinsky"@en-US ;
+        vcard:familyName  "Powell"@en-US ;
+        vcard:givenName   "Suzanne"@en-US .
 
 <http://vivo.mydomain.edu/individual/n8112>
         a                 vcard:Name ;
-        vivo:middleName   "J" ;
-        vcard:familyName  "Pierce" ;
-        vcard:givenName   "Franklin" .
+        vivo:middleName   "J"@en-US ;
+        vcard:familyName  "Pierce"@en-US ;
+        vcard:givenName   "Franklin"@en-US .
 
 <http://vivo.mydomain.edu/individual/n6557>
         a                 vcard:Name ;
-        vcard:familyName  "Martinez" ;
-        vcard:givenName   "Claudia" .
+        vcard:familyName  "Martinez"@en-US ;
+        vcard:givenName   "Claudia"@en-US .
 
 <http://vivo.mydomain.edu/individual/n5680>
         a                 vcard:Name ;
@@ -860,20 +860,20 @@
 
 <http://vivo.mydomain.edu/individual/n5938>
         a                 vcard:Name ;
-        vivo:middleName   "K" ;
-        vcard:familyName  "Stevens" ;
-        vcard:givenName   "Emily" .
+        vivo:middleName   "K"@en-US ;
+        vcard:familyName  "Stevens"@en-US ;
+        vcard:givenName   "Emily"@en-US .
 
 <http://vivo.mydomain.edu/individual/n5481>
         a                 vcard:Name ;
-        vcard:familyName  "Bogart" ;
-        vcard:givenName   "Andrew" .
+        vcard:familyName  "Bogart"@en-US ;
+        vcard:givenName   "Andrew"@en-US .
 
 <http://vivo.mydomain.edu/individual/n1490>
         a                 vcard:Name ;
-        vivo:middleName   "I" ;
-        vcard:familyName  "Peters" ;
-        vcard:givenName   "Jasper" .
+        vivo:middleName   "I"@en-US ;
+        vcard:familyName  "Peters"@en-US ;
+        vcard:givenName   "Jasper"@en-US .
 
 <http://vivo.mydomain.edu/individual/n7199>
         a                       vivo:ReviewerRole ;
@@ -906,7 +906,7 @@
 
 <http://vivo.mydomain.edu/individual/n1158>
         a                vivo:Postdoc ;
-        rdfs:label       "Martinez, Claudia" ;
+        rdfs:label       "Martinez, Claudia"@en-US ;
         obo:ARG_2000028  <http://vivo.mydomain.edu/individual/n4712> ;
         obo:RO_0000053   <http://vivo.mydomain.edu/individual/n2816> , <http://vivo.mydomain.edu/individual/n1515> ;
         vivo:relatedBy   <http://vivo.mydomain.edu/individual/n2543> , <http://vivo.mydomain.edu/individual/n6053> , <http://vivo.mydomain.edu/individual/n5058> .
