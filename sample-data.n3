@@ -567,7 +567,7 @@
 
 <http://vivo.mydomain.edu/individual/n4983>
         a            vcard:Title ;
-	vcard:title  "Professeur et recetur adjoint"@fr-CA;
+	vcard:title  "Professeur et Recteur adjoint"@fr-CA;
         vcard:title  "Professor and Associate Dean"@en-US.
 
 <http://vivo.mydomain.edu/individual/n7431>
@@ -1033,3 +1033,4 @@
 
 <http://vivoweb.org/ontology/degree/academicDegree98>
         vivo:relatedBy  <http://vivo.mydomain.edu/individual/n3390> .
+        
