@@ -1027,7 +1027,6 @@
 
 <http://dbpedia.org/resource/Kansas>
         obo:RO_0001015  <http://vivo.mydomain.edu/individual/n6810> .
-		geo:Poland  rdfs:label          "Pologne"@fr-CA ;
 		geo:Poland  rdfs:label          "Poland"@en-US ;
         vivo:geographicFocusOf  <http://vivo.mydomain.edu/individual/n128> .
 
