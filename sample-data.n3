@@ -949,12 +949,16 @@
 <http://vivo.mydomain.edu/individual/n5481>
         a                 vcard:Name ;
         vcard:familyName  "Bogart"@en-US ;
+        vcard:familyName  "Bogart"@fr-CA ;
+        vcard:givenName   "Andrew"@fr-CA ;
         vcard:givenName   "Andrew"@en-US .
 
 <http://vivo.mydomain.edu/individual/n1490>
         a                 vcard:Name ;
         vivo:middleName   "I"@en-US ;
         vcard:familyName  "Peters"@en-US ;
+        vcard:familyName  "Peters"@fr-CA ;
+        vcard:givenName   "Jasper"@fr-CA ;
         vcard:givenName   "Jasper"@en-US .
 
 <http://vivo.mydomain.edu/individual/n7199>
