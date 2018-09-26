@@ -6,4 +6,4 @@ We have one sample data set.  It includes people, organizations, papers, grants,
 
 ## Instructions for use
 
-For instructions, see "Sample Data" in the VIVO documentation https://wiki.duraspace.org/display/VIVODOC19x/Sample+Data
+For instructions, see "Sample Data" in the VIVO documentation https://wiki.duraspace.org/display/VIVODOC110x/Sample+Data
