@@ -91,8 +91,15 @@
         vivo:relatedBy            <http://vivo.mydomain.edu/individual/n7123> , <http://vivo.mydomain.edu/individual/n2808> , <http://vivo.mydomain.edu/individual/n10598> .
 
 <http://vivo.mydomain.edu/individual/n7578>
-        bibo:volume         "15" ;
-        vivo:dateTimeValue  <http://vivo.mydomain.edu/individual/n869> .
+        a                   bibo:AcademicArticle ;
+        rdfs:label          "Metabolic functions of C. Elegans"@en-US ;
+        bibo:issue          "45" ;
+        bibo:pageEnd        "678" ;
+        bibo:pageStart      "671" ;
+        bibo:volume         "111" ;
+        vivo:dateTimeValue  <http://vivo.mydomain.edu/individual/n869> ;
+        vivo:hasPublicationVenue  <http://vivo.mydomain.edu/individual/n6749> ;
+        vivo:relatedBy            <http://vivo.mydomain.edu/individual/n7124> , <http://vivo.mydomain.edu/individual/n2809> .
 
 <http://vivo.mydomain.edu/individual/n4860>
         vivo:dateTimeValue  <http://vivo.mydomain.edu/individual/n190> ;
@@ -250,7 +257,26 @@
 <http://vivo.mydomain.edu/individual/n8066>
         a             vivo:Authorship ;
         vivo:relates  <http://vivo.mydomain.edu/individual/n3728> , <http://vivo.mydomain.edu/individual/n128> .
-
+        
+<http://vivo.mydomain.edu/individual/n7124>
+        a             vivo:Authorship ;
+        vivo:rank     "1"^^xsd:int ;
+        vivo:relates  <http://vivo.mydomain.edu/individual/n7578> , <http://vivo.mydomain.edu/individual/n6870> .
+        
+<http://vivo.mydomain.edu/individual/n2809>
+        a             vivo:Authorship ;
+        vivo:rank     "2"^^xsd:int ;
+        vivo:relates  <http://vivo.mydomain.edu/individual/n7578> , <http://vivo.mydomain.edu/individual/n1111> .
+        
+<http://vivo.mydomain.edu/individual/n1111>
+		a             vcard:Individual ;
+		vcard:hasName <http://vivo.mydomain.edu/individual/n1112> .
+		
+<http://vivo.mydomain.edu/individual/n1112>
+		a			  vcard:Name ;
+		vcard:familyName "Veronique"@en ;
+    	vcard:givenName "Al"@en .
+		
 <http://vivo.mydomain.edu/individual/n269>
         a                      vivo:TeacherRole ;
         rdfs:label             "Instructor"@en-US ;
@@ -916,6 +942,10 @@
         rdfs:label                "Journal of Political Rhetoric"@en-US ;
         vivo:contributingRole     <http://vivo.mydomain.edu/individual/n722> , <http://vivo.mydomain.edu/individual/n5685> ;
         vivo:publicationVenueFor  <http://vivo.mydomain.edu/individual/n3954> .
+        
+<http://vivo.mydomain.edu/individual/n6749>
+        a                         bibo:Journal ;
+        rdfs:label                "Journal of Analytic Chemistry"@en-US .
 
 <http://vivo.mydomain.edu/individual/n1271>
         a                      bibo:Journal ;
