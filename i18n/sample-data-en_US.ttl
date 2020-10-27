@@ -1,0 +1,281 @@
+@prefix : <http://localhost:8080/vivo_i18n/vivo-sample_en_US#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sample-data: <http://localhost:8080/vivo_i18n/individual/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+geo:Poland
+  rdfs:label "Poland"@en-US ;
+.
+sample-data:n1116
+  vcard:country "USA"@en-US ;
+  vcard:locality "Small City"@en-US ;
+  vcard:region "Kansas"@en-US ;
+  vcard:streetAddress "1400 Maple Street; "@en-US ;
+.
+sample-data:n1132
+  vcard:title "Associate Professor"@en-US ;
+.
+sample-data:n1158
+  rdfs:label "Martinez, Claudia"@en-US ;
+.
+sample-data:n1246
+  rdfs:label "ENC 1114 -- Introduction to Rhetoric"@en-US ;
+.
+sample-data:n1271
+  rdfs:label "Journal of Derrida"@en-US ;
+.
+sample-data:n128
+  vivo:overview "Vocal performance"@en-US ;
+  rdfs:label "Powell, Suzanne Katrinsky"@en-US ;
+.
+sample-data:n1447
+  vcard:title "Assistant Professor"@en-US ;
+.
+sample-data:n1454
+  rdfs:label "Derrida"@en-US ;
+.
+sample-data:n1467
+  rdfs:label "Professor"@en-US ;
+.
+sample-data:n1490
+  vivo:middleName "I"@en-US ;
+  vcard:familyName "Peters"@en-US ;
+  vcard:givenName "Jasper"@en-US ;
+.
+sample-data:n159
+  vivo:middleName "Katrinsky"@en-US ;
+  vcard:familyName "Powell"@en-US ;
+  vcard:givenName "Suzanne"@en-US ;
+.
+sample-data:n1630
+  rdfs:label "Member"@en-US ;
+.
+sample-data:n1736
+  vivo:overview "My research is focused on Derrida and the nature of political discourse in the era of electracy."@en-US ;
+  rdfs:label "Roberts, Patricia"@en-US ;
+.
+sample-data:n1810
+  rdfs:label "Associate Dean for Research"@en-US ;
+.
+sample-data:n1927
+  vivo:overview "The Physics Department is in the College of Science of Sample University"@en-US ;
+  rdfs:label "Physics"@en-US ;
+.
+sample-data:n2022
+  rdfs:label "Keynote Speaker"@en-US ;
+.
+sample-data:n2238
+  rdfs:label "Civil War Reconstruction"@en-US ;
+.
+sample-data:n2264
+  rdfs:label "Associate Professor"@en-US ;
+.
+sample-data:n2543
+  rdfs:label "Postdoctoral Researcher"@en-US ;
+.
+sample-data:n2681
+  rdfs:label "Professor"@en-US ;
+.
+sample-data:n269
+  rdfs:label "Instructor"@en-US ;
+.
+sample-data:n2757
+  rdfs:label "Associate Professor"@en-US ;
+.
+sample-data:n2837
+  vivo:overview "The History Department is in the College of Arts and Humanities of Sample University."@en-US ;
+  rdfs:label "History"@en-US ;
+.
+sample-data:n2854
+  rdfs:label "Rhetoric"@en-US ;
+.
+sample-data:n2969
+  rdfs:label "Assistant Professor"@en-US ;
+.
+sample-data:n2992
+  rdfs:label "Home Page"@en-US ;
+.
+sample-data:n3390
+  rdfs:label "Roberts, Patricia : Ph.D. Doctor of Philosophy"@en-US ;
+.
+sample-data:n3396
+  rdfs:label "American Civil War"@en-US ;
+.
+sample-data:n3407
+  rdfs:label "Teacher of the Year"@en-US ;
+.
+sample-data:n3547
+  vcard:title "Postdoctoral Researcher"@en-US ;
+.
+sample-data:n3674
+  rdfs:label "Associate Professor"@en-US ;
+.
+sample-data:n3684
+  rdfs:label "Professor"@en-US ;
+.
+sample-data:n3694
+  rdfs:label "ENC 4013 -- Senior Studies"@en-US ;
+.
+sample-data:n3728
+  rdfs:label "Solo performance of Aida with Philadelphia Orchestra"@en-US ;
+.
+sample-data:n3787
+  rdfs:label "National Science Foundation"@en-US ;
+.
+sample-data:n3854
+  rdfs:label "College of Arts and Humanities Tenure Committee"@en-US ;
+.
+sample-data:n3910
+  vivo:overview "A college of Sample University."@en-US ;
+  rdfs:label "College of Arts and Humanities"@en-US ;
+.
+sample-data:n3954
+  rdfs:label "Derrida's influence on political rhetoric"@en-US ;
+.
+sample-data:n4085
+  rdfs:label "English"@en-US ;
+.
+sample-data:n4109
+  rdfs:label "Music"@en-US ;
+.
+sample-data:n4221
+  rdfs:label "Teacher of the Year (Roberts, Patricia  - 2001)"@en-US ;
+.
+sample-data:n4531
+  rdfs:label "Professor"@en-US ;
+.
+sample-data:n469
+  vivo:overview "A college of Sample University"@en-US ;
+  rdfs:label "College of Science"@en-US ;
+.
+sample-data:n476
+  rdfs:label "Stevens, Emily K"@en-US ;
+.
+sample-data:n4762
+  rdfs:label "Harvard University"@en-US ;
+.
+sample-data:n4869
+  rdfs:label "17th Annual Conference on Philosophy and Rhetoric"@en-US ;
+.
+sample-data:n489
+  rdfs:label "California Institute of Technology"@en-US ;
+.
+sample-data:n4983
+  vcard:title "Professor and Associate Dean"@en-US ;
+.
+sample-data:n5058
+  rdfs:label "Peters, Jasper I advising Martinez, Claudia  (Postdoc)"@en-US ;
+.
+sample-data:n5218
+  vcard:title "Professor and Chair"@en-US ;
+.
+sample-data:n5345
+  rdfs:label "Chair"@en-US ;
+.
+sample-data:n5481
+  vcard:familyName "Bogart"@en-US ;
+  vcard:givenName "Andrew"@en-US ;
+.
+sample-data:n5504
+  rdfs:label "Political discourse"@en-US ;
+.
+sample-data:n563
+  vivo:departmentOrSchool "English"@en-US ;
+  vivo:majorField "Rhetoric"@en-US ;
+.
+sample-data:n5680
+  vcard:familyName "Roberts"@en-US ;
+  vcard:givenName "Patricia"@en-US ;
+.
+sample-data:n5685
+  rdfs:label "Editor in Chief"@en-US ;
+.
+sample-data:n5938
+  vivo:middleName "K"@en-US ;
+  vcard:familyName "Stevens"@en-US ;
+  vcard:givenName "Emily"@en-US ;
+.
+sample-data:n5987
+  rdfs:label "Social Media as Discourse"@en-US ;
+.
+sample-data:n6053
+  rdfs:label "NSF Postdoctoral training award"@en-US ;
+.
+sample-data:n6241
+  vcard:title "Professor Emeritus"@en-US ;
+.
+sample-data:n6356
+  rdfs:label "John Wiley"@en-US ;
+.
+sample-data:n6523
+  rdfs:label "Quantum Physics"@en-US ;
+.
+sample-data:n6557
+  vcard:familyName "Martinez"@en-US ;
+  vcard:givenName "Claudia"@en-US ;
+.
+sample-data:n6561
+  rdfs:label "Electracy"@en-US ;
+.
+sample-data:n6737
+  rdfs:label "Derrida and Political Discourse"@en-US ;
+.
+sample-data:n6748
+  rdfs:label "Journal of Political Rhetoric"@en-US ;
+.
+sample-data:n6795
+  rdfs:label "University of California Press"@en-US ;
+.
+sample-data:n6810
+  vivo:overview "Sample University is a <em><strong>fictional university</strong></em> created to demonstrate VIVO features."@en-US ;
+  rdfs:label "Sample University"@en-US ;
+.
+sample-data:n6870
+  rdfs:label "Peters, Jasper I"@en-US ;
+.
+sample-data:n6983
+  rdfs:label "Instructor"@en-US ;
+.
+sample-data:n700
+  rdfs:label "University Undergraduate Curriculum Committee"@en-US ;
+.
+sample-data:n722
+  rdfs:label "Associate Editor"@en-US ;
+.
+sample-data:n7238
+  rdfs:label "Chair"@en-US ;
+.
+sample-data:n725
+  rdfs:label "Pierce, Franklin J"@en-US ;
+.
+sample-data:n7257
+  rdfs:label "Chemistry"@en-US ;
+.
+sample-data:n733
+  rdfs:label "Bogart, Andrew"@en-US ;
+.
+sample-data:n7431
+  rdfs:label "Derrida and the Electracy Conundrum"@en-US ;
+.
+sample-data:n7979
+  rdfs:label "Twitter as Rhetoric"@en-US ;
+.
+sample-data:n8112
+  vivo:middleName "J"@en-US ;
+  vcard:familyName "Pierce"@en-US ;
+  vcard:givenName "Franklin"@en-US ;
+.
+sample-data:n86
+  rdfs:label "Assistant Professor"@en-US ;
+.
