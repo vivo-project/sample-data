@@ -1,0 +1,239 @@
+# baseURI: http://localhost:8080/vivo_i18n/sample-data-i18n-en-US
+
+@prefix : <http://localhost:8080/vivo_i18n/sample-data-i18n-en-US#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix corpus: <http://topbraid.org/corpus#> .
+@prefix crosswalk: <http://topbraid.org/crosswalk#> .
+@prefix crosswalk.spin: <http://topbraid.org/crosswalk.spin#> .
+@prefix crosswalkapp: <http://topbraid.org/swa/crosswalkapp#> .
+@prefix crosswalkprojects: <http://teamwork.topbraidlive.org/crosswalkprojects#> .
+@prefix evnconstraints: <http://topbraid.org/spin/evnconstraints#> .
+@prefix evnui: <http://evn.topbraidlive.org/ui#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix governance: <http://topbraid.org/teamworkgovernance.ui#> .
+@prefix html: <http://uispin.org/html#> .
+@prefix jfn: <java:org.apache.jena.sparql.function.library.> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ontologyprojects: <http://teamwork.topbraidlive.org/ontologyprojects#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owlrl: <http://topbraid.org/spin/owlrl#> .
+@prefix pf: <http://jena.hpl.hp.com/ARQ/property#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix safconfig: <http://topbraid.org/safconfig/> .
+@prefix safm: <http://saf.topbraidlive.org/metaschema/> .
+@prefix sample-data: <http://localhost:8080/vivo_i18n/individual/> .
+@prefix savedQueries: <http://teamwork.topbraidlive.org/ui/savedQueries#> .
+@prefix search: <http://topbraid.org/search#> .
+@prefix sharepoint: <http://topbraid.org/sharepoint#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosspin: <http://topbraid.org/spin/skosspin#> .
+@prefix skostemplate: <http://topbraid.org/spin/skostemplates#> .
+@prefix sm: <http://topbraid.org/sparqlmotion#> .
+@prefix sm2wsdl: <http://topbraid.org/sparqlmotion/sm2wsdl.sms#> .
+@prefix smf: <http://topbraid.org/sparqlmotionfunctions#> .
+@prefix sml: <http://topbraid.org/sparqlmotionlib#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spif: <http://spinrdf.org/spif#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix spinmap: <http://spinrdf.org/spinmap#> .
+@prefix spinmapl: <http://topbraid.org/spin/spinmapl#> .
+@prefix spl: <http://spinrdf.org/spl#> .
+@prefix spr: <http://spinrdf.org/spr#> .
+@prefix spra: <http://spinrdf.org/spra#> .
+@prefix swa: <http://topbraid.org/swa#> .
+@prefix swaclasses: <http://topbraid.org/swaclasses#> .
+@prefix swauml: <http://topbraid.org/swauml#> .
+@prefix swon: <http://uispin.org/swon#> .
+@prefix tables: <http://topbraid.org/tables#> .
+@prefix tablesmap: <http://topbraid.org/spin/tablesmap#> .
+@prefix tagger: <http://evn.topbraidlive.org/tagger#> .
+@prefix tasks: <http://topbraid.org/tasks#> .
+@prefix taxonomies: <http://evn.topbraidlive.org/evnprojects#> .
+@prefix tbladmin: <http://server.topbraidlive.org/system-applications/tbladmin#> .
+@prefix teamwork: <http://topbraid.org/teamwork#> .
+@prefix teamworkupdate: <http://teamworkAPI.topbraid.com/teamworkUpdate#> .
+@prefix textindex: <http://topbraid.org/textindex#> .
+@prefix tops: <http://www.topbraid.org/tops#> .
+@prefix tosh.ui: <http://topbraid.org/tosh.ui#> .
+@prefix tracker: <http://teamwork.topbraidlive.org/ui/tracker#> .
+@prefix ui: <http://uispin.org/ui#> .
+@prefix uix: <http://topbraidlive.org/uix#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix vivo-sample_fr-localhost: <http://localhost:8080/vivo/vivo-sample_fr-localhost#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+geo:Poland
+  rdfs:label "Poland"@de-DE ;
+.
+sample-data:n1246
+  rdfs:label "ENC 1114 -- Introduction to Rhetoric"@de-DE ;
+.
+sample-data:n1467
+  rdfs:label "Professor"@de-DE ;
+.
+sample-data:n1630
+  rdfs:label "Member"@de-DE ;
+.
+sample-data:n1810
+  rdfs:label "Associate Dean for Research"@de-DE ;
+.
+sample-data:n1927
+  rdfs:label "Physics"@de-DE ;
+.
+sample-data:n2238
+  rdfs:label "Civil War Reconstruction"@de-DE ;
+.
+sample-data:n2264
+  rdfs:label "Associate Professor"@de-DE ;
+.
+sample-data:n2543
+  rdfs:label "Postdoctoral Researcher"@de-DE ;
+.
+sample-data:n2681
+  rdfs:label "Professor"@de-DE ;
+.
+sample-data:n269
+  rdfs:label "Instructor"@de-DE ;
+.
+sample-data:n2757
+  rdfs:label "Associate Professor"@de-DE ;
+.
+sample-data:n2837
+  rdfs:label "History"@de-DE ;
+.
+sample-data:n2854
+  rdfs:label "Rhetoric"@de-DE ;
+.
+sample-data:n2969
+  rdfs:label "Assistant Professor"@de-DE ;
+.
+sample-data:n2992
+  rdfs:label "Home Page"@de-DE ;
+.
+sample-data:n3390
+  rdfs:label "Roberts, Patricia : Ph.D. Doctor of Philosophy"@de-DE ;
+.
+sample-data:n3396
+  rdfs:label "American Civil War"@de-DE ;
+.
+sample-data:n3407
+  rdfs:label "Teacher of the Year"@de-DE ;
+.
+sample-data:n3674
+  rdfs:label "Associate Professor"@de-DE ;
+.
+sample-data:n3684
+  rdfs:label "Professor"@de-DE ;
+.
+sample-data:n3694
+  rdfs:label "ENC 4013 -- Senior Studies"@de-DE ;
+.
+sample-data:n3728
+  rdfs:label "Solo performance of Aida with Philadelphia Orchestra"@de-DE ;
+.
+sample-data:n3787
+  rdfs:label "National Science Foundation"@de-DE ;
+.
+sample-data:n3854
+  rdfs:label "College of Arts and Humanities Tenure Committee"@de-DE ;
+.
+sample-data:n3910
+  rdfs:label "College of Arts and Humanities"@de-DE ;
+.
+sample-data:n3954
+  rdfs:label "Derrida's influence on political rhetoric"@de-DE ;
+.
+sample-data:n4085
+  rdfs:label "English"@de-DE ;
+.
+sample-data:n4109
+  rdfs:label "Music"@de-DE ;
+.
+sample-data:n4221
+  rdfs:label "Teacher of the Year (Roberts, Patricia  - 2001)"@de-DE ;
+.
+sample-data:n4531
+  rdfs:label "Professor"@de-DE ;
+.
+sample-data:n469
+  rdfs:label "College of Science"@de-DE ;
+.
+sample-data:n4762
+  rdfs:label "Harvard University"@de-DE ;
+.
+sample-data:n4869
+  rdfs:label "17th Annual Conference on Philosophy and Rhetoric"@de-DE ;
+.
+sample-data:n489
+  rdfs:label "California Institute of Technology"@de-DE ;
+.
+sample-data:n5058
+  rdfs:label "Peters, Jasper I advising Martinez, Claudia  (Postdoc)"@de-DE ;
+.
+sample-data:n5345
+  rdfs:label "Chair"@de-DE ;
+.
+sample-data:n5504
+  rdfs:label "Political discourse"@de-DE ;
+.
+sample-data:n5685
+  rdfs:label "Editor in Chief"@de-DE ;
+.
+sample-data:n5987
+  rdfs:label "Social Media as Discourse"@de-DE ;
+.
+sample-data:n6053
+  rdfs:label "NSF Postdoctoral training award"@de-DE ;
+.
+sample-data:n6523
+  rdfs:label "Quantum Physics"@de-DE ;
+.
+sample-data:n6561
+  rdfs:label "Electracy"@de-DE ;
+.
+sample-data:n6737
+  rdfs:label "Derrida and Political Discourse"@de-DE ;
+.
+sample-data:n6748
+  rdfs:label "Journal of Political Rhetoric"@de-DE ;
+.
+sample-data:n6795
+  rdfs:label "University of California Press"@de-DE ;
+.
+sample-data:n6810
+  rdfs:label "Sample University"@de-DE ;
+.
+sample-data:n6983
+  rdfs:label "Instructor"@de-DE ;
+.
+sample-data:n700
+  rdfs:label "University Undergraduate Curriculum Committee"@de-DE ;
+.
+sample-data:n722
+  rdfs:label "Associate Editor"@de-DE ;
+.
+sample-data:n7238
+  rdfs:label "Chair"@de-DE ;
+.
+sample-data:n7257
+  rdfs:label "Chemistry"@de-DE ;
+.
+sample-data:n7431
+  rdfs:label "Derrida and the Electracy Conundrum"@de-DE ;
+.
+sample-data:n7979
+  rdfs:label "Twitter as Rhetoric"@de-DE ;
+.
+sample-data:n86
+  rdfs:label "Assistant Professor"@de-DE ;
+.
+<http://localhost:8080/vivo_i18n/sample-data-i18n-en-US>
+  rdf:type owl:Ontology ;
+  owl:versionInfo "Michel Héon, 2021, for Université du Québec à Montréal, http://uqam.ca " ;
+.

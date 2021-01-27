@@ -1,25 +1,77 @@
-# baseURI: http://localhost:8080/vivo_i18n/vivo-sample_fr_CA
+# baseURI: http://localhost:8080/vivo_i18n/sample-data-i18n-fr-CA
 
-@prefix : <http://localhost:8080/vivo_i18n/vivo-sample_fr_CA#> .
+@prefix : <http://localhost:8080/vivo_i18n/sample-data-i18n-fr-CA#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix corpus: <http://topbraid.org/corpus#> .
+@prefix crosswalk: <http://topbraid.org/crosswalk#> .
+@prefix crosswalk.spin: <http://topbraid.org/crosswalk.spin#> .
+@prefix crosswalkapp: <http://topbraid.org/swa/crosswalkapp#> .
+@prefix crosswalkprojects: <http://teamwork.topbraidlive.org/crosswalkprojects#> .
+@prefix evnconstraints: <http://topbraid.org/spin/evnconstraints#> .
+@prefix evnui: <http://evn.topbraidlive.org/ui#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix governance: <http://topbraid.org/teamworkgovernance.ui#> .
+@prefix html: <http://uispin.org/html#> .
+@prefix jfn: <java:org.apache.jena.sparql.function.library.> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ontologyprojects: <http://teamwork.topbraidlive.org/ontologyprojects#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owlrl: <http://topbraid.org/spin/owlrl#> .
+@prefix pf: <http://jena.hpl.hp.com/ARQ/property#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix safconfig: <http://topbraid.org/safconfig/> .
+@prefix safm: <http://saf.topbraidlive.org/metaschema/> .
 @prefix sample-data: <http://localhost:8080/vivo_i18n/individual/> .
+@prefix savedQueries: <http://teamwork.topbraidlive.org/ui/savedQueries#> .
+@prefix search: <http://topbraid.org/search#> .
+@prefix sharepoint: <http://topbraid.org/sharepoint#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosspin: <http://topbraid.org/spin/skosspin#> .
+@prefix skostemplate: <http://topbraid.org/spin/skostemplates#> .
+@prefix sm: <http://topbraid.org/sparqlmotion#> .
+@prefix sm2wsdl: <http://topbraid.org/sparqlmotion/sm2wsdl.sms#> .
+@prefix smf: <http://topbraid.org/sparqlmotionfunctions#> .
+@prefix sml: <http://topbraid.org/sparqlmotionlib#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spif: <http://spinrdf.org/spif#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix spinmap: <http://spinrdf.org/spinmap#> .
+@prefix spinmapl: <http://topbraid.org/spin/spinmapl#> .
+@prefix spl: <http://spinrdf.org/spl#> .
+@prefix spr: <http://spinrdf.org/spr#> .
+@prefix spra: <http://spinrdf.org/spra#> .
+@prefix swa: <http://topbraid.org/swa#> .
+@prefix swaclasses: <http://topbraid.org/swaclasses#> .
+@prefix swauml: <http://topbraid.org/swauml#> .
+@prefix swon: <http://uispin.org/swon#> .
+@prefix tables: <http://topbraid.org/tables#> .
+@prefix tablesmap: <http://topbraid.org/spin/tablesmap#> .
+@prefix tagger: <http://evn.topbraidlive.org/tagger#> .
+@prefix tasks: <http://topbraid.org/tasks#> .
+@prefix taxonomies: <http://evn.topbraidlive.org/evnprojects#> .
+@prefix tbladmin: <http://server.topbraidlive.org/system-applications/tbladmin#> .
+@prefix teamwork: <http://topbraid.org/teamwork#> .
+@prefix teamworkupdate: <http://teamworkAPI.topbraid.com/teamworkUpdate#> .
+@prefix textindex: <http://topbraid.org/textindex#> .
+@prefix tops: <http://www.topbraid.org/tops#> .
+@prefix tosh.ui: <http://topbraid.org/tosh.ui#> .
+@prefix tracker: <http://teamwork.topbraidlive.org/ui/tracker#> .
+@prefix ui: <http://uispin.org/ui#> .
+@prefix uix: <http://topbraidlive.org/uix#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
 @prefix vivo: <http://vivoweb.org/ontology/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<file:///home/heon/Documents/00-PROJECT-UQAM-VIVO/00-GIT-1762/sample-data/i18n/sample-data_fr_CA.nt>
-  a owl:Ontology ;
-.
 geo:Poland
   rdfs:label "Pologne"@fr-CA ;
+.
+<http://localhost:8080/vivo/vivo-sample_fr-localhost>
+  rdf:type owl:Ontology ;
 .
 sample-data:n1246
   rdfs:label "ENC 1114 -- Intruction à la Rhétorique"@fr-CA ;
@@ -183,6 +235,6 @@ sample-data:n7979
 sample-data:n86
   rdfs:label "Assistant professeur"@fr-CA ;
 .
-<http://localhost:8080/vivo_i18n/vivo-sample_fr_CA>
-  rdfs:comment "Adapté par Michel Héon PhD Université du Québec à Montréal"@fr-CA ;
+<http://localhost:8080/vivo_i18n/sample-data-i18n-fr-CA>
+  owl:versionInfo "Michel Héon, 2021, for Université du Québec à Montréal, http://uqam.ca" ;
 .
