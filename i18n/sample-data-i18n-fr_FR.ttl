@@ -218,7 +218,7 @@ sample-data:n700
   rdfs:label "Comité du programme de premier cycle universitaire"@fr-FR ;
 .
 sample-data:n722
-  rdfs:label "Éditeur essocié"@fr-FR ;
+  rdfs:label "Éditeur associé"@fr-FR ;
 .
 sample-data:n7238
   rdfs:label "Présidence"@fr-FR ;
