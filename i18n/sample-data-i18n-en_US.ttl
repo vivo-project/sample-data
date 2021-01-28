@@ -1,79 +1,90 @@
-@prefix : <http://localhost:8080/vivo_i18n/vivo-sample_en_US#> .
+# baseURI: http://localhost:8080/vivo_i18n/sample-data-i18n-en-US
+
+@prefix : <http://localhost:8080/vivo_i18n/sample-data-i18n-en-US#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix corpus: <http://topbraid.org/corpus#> .
+@prefix crosswalk: <http://topbraid.org/crosswalk#> .
+@prefix crosswalk.spin: <http://topbraid.org/crosswalk.spin#> .
+@prefix crosswalkapp: <http://topbraid.org/swa/crosswalkapp#> .
+@prefix crosswalkprojects: <http://teamwork.topbraidlive.org/crosswalkprojects#> .
+@prefix evnconstraints: <http://topbraid.org/spin/evnconstraints#> .
+@prefix evnui: <http://evn.topbraidlive.org/ui#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix governance: <http://topbraid.org/teamworkgovernance.ui#> .
+@prefix html: <http://uispin.org/html#> .
+@prefix jfn: <java:org.apache.jena.sparql.function.library.> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ontologyprojects: <http://teamwork.topbraidlive.org/ontologyprojects#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owlrl: <http://topbraid.org/spin/owlrl#> .
+@prefix pf: <http://jena.hpl.hp.com/ARQ/property#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix safconfig: <http://topbraid.org/safconfig/> .
+@prefix safm: <http://saf.topbraidlive.org/metaschema/> .
 @prefix sample-data: <http://localhost:8080/vivo_i18n/individual/> .
+@prefix savedQueries: <http://teamwork.topbraidlive.org/ui/savedQueries#> .
+@prefix search: <http://topbraid.org/search#> .
+@prefix sharepoint: <http://topbraid.org/sharepoint#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosspin: <http://topbraid.org/spin/skosspin#> .
+@prefix skostemplate: <http://topbraid.org/spin/skostemplates#> .
+@prefix sm: <http://topbraid.org/sparqlmotion#> .
+@prefix sm2wsdl: <http://topbraid.org/sparqlmotion/sm2wsdl.sms#> .
+@prefix smf: <http://topbraid.org/sparqlmotionfunctions#> .
+@prefix sml: <http://topbraid.org/sparqlmotionlib#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spif: <http://spinrdf.org/spif#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix spinmap: <http://spinrdf.org/spinmap#> .
+@prefix spinmapl: <http://topbraid.org/spin/spinmapl#> .
+@prefix spl: <http://spinrdf.org/spl#> .
+@prefix spr: <http://spinrdf.org/spr#> .
+@prefix spra: <http://spinrdf.org/spra#> .
+@prefix swa: <http://topbraid.org/swa#> .
+@prefix swaclasses: <http://topbraid.org/swaclasses#> .
+@prefix swauml: <http://topbraid.org/swauml#> .
+@prefix swon: <http://uispin.org/swon#> .
+@prefix tables: <http://topbraid.org/tables#> .
+@prefix tablesmap: <http://topbraid.org/spin/tablesmap#> .
+@prefix tagger: <http://evn.topbraidlive.org/tagger#> .
+@prefix tasks: <http://topbraid.org/tasks#> .
+@prefix taxonomies: <http://evn.topbraidlive.org/evnprojects#> .
+@prefix tbladmin: <http://server.topbraidlive.org/system-applications/tbladmin#> .
+@prefix teamwork: <http://topbraid.org/teamwork#> .
+@prefix teamworkupdate: <http://teamworkAPI.topbraid.com/teamworkUpdate#> .
+@prefix textindex: <http://topbraid.org/textindex#> .
+@prefix tops: <http://www.topbraid.org/tops#> .
+@prefix tosh.ui: <http://topbraid.org/tosh.ui#> .
+@prefix tracker: <http://teamwork.topbraidlive.org/ui/tracker#> .
+@prefix ui: <http://uispin.org/ui#> .
+@prefix uix: <http://topbraidlive.org/uix#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
 @prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix vivo-sample_fr-localhost: <http://localhost:8080/vivo/vivo-sample_fr-localhost#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 geo:Poland
   rdfs:label "Poland"@en-US ;
 .
-sample-data:n1116
-  vcard:country "USA"@en-US ;
-  vcard:locality "Small City"@en-US ;
-  vcard:region "Kansas"@en-US ;
-  vcard:streetAddress "1400 Maple Street; "@en-US ;
-.
-sample-data:n1132
-  vcard:title "Associate Professor"@en-US ;
-.
-sample-data:n1158
-  rdfs:label "Martinez, Claudia"@en-US ;
-.
 sample-data:n1246
   rdfs:label "ENC 1114 -- Introduction to Rhetoric"@en-US ;
-.
-sample-data:n1271
-  rdfs:label "Journal of Derrida"@en-US ;
-.
-sample-data:n128
-  vivo:overview "Vocal performance"@en-US ;
-  rdfs:label "Powell, Suzanne Katrinsky"@en-US ;
-.
-sample-data:n1447
-  vcard:title "Assistant Professor"@en-US ;
-.
-sample-data:n1454
-  rdfs:label "Derrida"@en-US ;
 .
 sample-data:n1467
   rdfs:label "Professor"@en-US ;
 .
-sample-data:n1490
-  vivo:middleName "I"@en-US ;
-  vcard:familyName "Peters"@en-US ;
-  vcard:givenName "Jasper"@en-US ;
-.
-sample-data:n159
-  vivo:middleName "Katrinsky"@en-US ;
-  vcard:familyName "Powell"@en-US ;
-  vcard:givenName "Suzanne"@en-US ;
-.
 sample-data:n1630
   rdfs:label "Member"@en-US ;
-.
-sample-data:n1736
-  vivo:overview "My research is focused on Derrida and the nature of political discourse in the era of electracy."@en-US ;
-  rdfs:label "Roberts, Patricia"@en-US ;
 .
 sample-data:n1810
   rdfs:label "Associate Dean for Research"@en-US ;
 .
 sample-data:n1927
-  vivo:overview "The Physics Department is in the College of Science of Sample University"@en-US ;
   rdfs:label "Physics"@en-US ;
-.
-sample-data:n2022
-  rdfs:label "Keynote Speaker"@en-US ;
 .
 sample-data:n2238
   rdfs:label "Civil War Reconstruction"@en-US ;
@@ -94,7 +105,6 @@ sample-data:n2757
   rdfs:label "Associate Professor"@en-US ;
 .
 sample-data:n2837
-  vivo:overview "The History Department is in the College of Arts and Humanities of Sample University."@en-US ;
   rdfs:label "History"@en-US ;
 .
 sample-data:n2854
@@ -115,9 +125,6 @@ sample-data:n3396
 sample-data:n3407
   rdfs:label "Teacher of the Year"@en-US ;
 .
-sample-data:n3547
-  vcard:title "Postdoctoral Researcher"@en-US ;
-.
 sample-data:n3674
   rdfs:label "Associate Professor"@en-US ;
 .
@@ -137,7 +144,6 @@ sample-data:n3854
   rdfs:label "College of Arts and Humanities Tenure Committee"@en-US ;
 .
 sample-data:n3910
-  vivo:overview "A college of Sample University."@en-US ;
   rdfs:label "College of Arts and Humanities"@en-US ;
 .
 sample-data:n3954
@@ -156,11 +162,7 @@ sample-data:n4531
   rdfs:label "Professor"@en-US ;
 .
 sample-data:n469
-  vivo:overview "A college of Sample University"@en-US ;
   rdfs:label "College of Science"@en-US ;
-.
-sample-data:n476
-  rdfs:label "Stevens, Emily K"@en-US ;
 .
 sample-data:n4762
   rdfs:label "Harvard University"@en-US ;
@@ -171,40 +173,17 @@ sample-data:n4869
 sample-data:n489
   rdfs:label "California Institute of Technology"@en-US ;
 .
-sample-data:n4983
-  vcard:title "Professor and Associate Dean"@en-US ;
-.
 sample-data:n5058
   rdfs:label "Peters, Jasper I advising Martinez, Claudia  (Postdoc)"@en-US ;
-.
-sample-data:n5218
-  vcard:title "Professor and Chair"@en-US ;
 .
 sample-data:n5345
   rdfs:label "Chair"@en-US ;
 .
-sample-data:n5481
-  vcard:familyName "Bogart"@en-US ;
-  vcard:givenName "Andrew"@en-US ;
-.
 sample-data:n5504
   rdfs:label "Political discourse"@en-US ;
 .
-sample-data:n563
-  vivo:departmentOrSchool "English"@en-US ;
-  vivo:majorField "Rhetoric"@en-US ;
-.
-sample-data:n5680
-  vcard:familyName "Roberts"@en-US ;
-  vcard:givenName "Patricia"@en-US ;
-.
 sample-data:n5685
   rdfs:label "Editor in Chief"@en-US ;
-.
-sample-data:n5938
-  vivo:middleName "K"@en-US ;
-  vcard:familyName "Stevens"@en-US ;
-  vcard:givenName "Emily"@en-US ;
 .
 sample-data:n5987
   rdfs:label "Social Media as Discourse"@en-US ;
@@ -212,18 +191,8 @@ sample-data:n5987
 sample-data:n6053
   rdfs:label "NSF Postdoctoral training award"@en-US ;
 .
-sample-data:n6241
-  vcard:title "Professor Emeritus"@en-US ;
-.
-sample-data:n6356
-  rdfs:label "John Wiley"@en-US ;
-.
 sample-data:n6523
   rdfs:label "Quantum Physics"@en-US ;
-.
-sample-data:n6557
-  vcard:familyName "Martinez"@en-US ;
-  vcard:givenName "Claudia"@en-US ;
 .
 sample-data:n6561
   rdfs:label "Electracy"@en-US ;
@@ -238,11 +207,7 @@ sample-data:n6795
   rdfs:label "University of California Press"@en-US ;
 .
 sample-data:n6810
-  vivo:overview "Sample University is a <em><strong>fictional university</strong></em> created to demonstrate VIVO features."@en-US ;
   rdfs:label "Sample University"@en-US ;
-.
-sample-data:n6870
-  rdfs:label "Peters, Jasper I"@en-US ;
 .
 sample-data:n6983
   rdfs:label "Instructor"@en-US ;
@@ -256,14 +221,8 @@ sample-data:n722
 sample-data:n7238
   rdfs:label "Chair"@en-US ;
 .
-sample-data:n725
-  rdfs:label "Pierce, Franklin J"@en-US ;
-.
 sample-data:n7257
   rdfs:label "Chemistry"@en-US ;
-.
-sample-data:n733
-  rdfs:label "Bogart, Andrew"@en-US ;
 .
 sample-data:n7431
   rdfs:label "Derrida and the Electracy Conundrum"@en-US ;
@@ -271,11 +230,10 @@ sample-data:n7431
 sample-data:n7979
   rdfs:label "Twitter as Rhetoric"@en-US ;
 .
-sample-data:n8112
-  vivo:middleName "J"@en-US ;
-  vcard:familyName "Pierce"@en-US ;
-  vcard:givenName "Franklin"@en-US ;
-.
 sample-data:n86
   rdfs:label "Assistant Professor"@en-US ;
+.
+<http://localhost:8080/vivo_i18n/sample-data-i18n-en-US>
+  rdf:type owl:Ontology ;
+  owl:versionInfo "Michel Héon, 2021, for Université du Québec à Montréal, http://uqam.ca " ;
 .

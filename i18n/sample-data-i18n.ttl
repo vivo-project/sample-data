@@ -1,0 +1,776 @@
+@prefix geo:   <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix :      <http://localhost:8080/vivo_i18n/sample-data-i18n#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix sample-data: <http://localhost:8080/vivo_i18n/individual/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+sample-data:n2022  a           vivo:PresenterRole ;
+        rdfs:label             "Keynote Speaker"@en-US ;
+        obo:BFO_0000054        sample-data:n7431 ;
+        obo:RO_0000052         sample-data:n1736 ;
+        vivo:dateTimeInterval  sample-data:n4343 .
+
+sample-data:n1071  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2010-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n3854  a           vivo:Committee ;
+        rdfs:label             "College of Arts and Humanities Tenure Committee"@en-US ;
+        vivo:contributingRole  sample-data:n1630 .
+
+sample-data:n3257  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n3112 .
+
+sample-data:n6983  a           vivo:TeacherRole ;
+        rdfs:label             "Instructor"@en-US ;
+        obo:BFO_0000054        sample-data:n1246 ;
+        obo:RO_0000052         sample-data:n1736 ;
+        vivo:dateTimeInterval  sample-data:n901 .
+
+sample-data:n725  a           vivo:EmeritusFaculty ;
+        rdfs:label            "Pierce, Franklin J"@en-US ;
+        obo:ARG_2000028       sample-data:n5959 ;
+        vivo:hasResearchArea  sample-data:n3396 , sample-data:n2238 ;
+        vivo:relatedBy        sample-data:n86 , sample-data:n3674 , sample-data:n2681 .
+
+sample-data:n3954  a              bibo:AcademicArticle ;
+        rdfs:label                "Derrida's influence on political rhetoric"@en-US ;
+        bibo:issue                "2" ;
+        bibo:pageEnd              "54" ;
+        bibo:pageStart            "1" ;
+        bibo:volume               "15" ;
+        vivo:dateTimeValue        sample-data:n869 ;
+        vivo:hasPublicationVenue  sample-data:n6748 ;
+        vivo:relatedBy            sample-data:n2808 , sample-data:n10598 , sample-data:n7123 .
+
+sample-data:n3407  a    vivo:Award ;
+        rdfs:label      "Teacher of the Year"@en-US ;
+        vivo:relatedBy  sample-data:n4221 .
+
+sample-data:n2264  a           vivo:FacultyPosition ;
+        rdfs:label             "Associate Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n14018 ;
+        vivo:relates           sample-data:n6870 , sample-data:n489 .
+
+sample-data:n6557  a      vcard:Name ;
+        vcard:familyName  "Martinez"@en-US ;
+        vcard:givenName   "Claudia"@en-US .
+
+sample-data:n128  a           vivo:FacultyMember ;
+        rdfs:label            "Powell, Suzanne Katrinsky"@en-US ;
+        obo:ARG_2000028       sample-data:n4654 ;
+        vivo:geographicFocus  geo:Poland ;
+        vivo:overview         "Vocal performance"@en-US ;
+        vivo:relatedBy        sample-data:n8066 , sample-data:n2969 .
+
+sample-data:n1271  a           bibo:Journal ;
+        rdfs:label             "Journal of Derrida"@en-US ;
+        vivo:contributingRole  sample-data:n7199 .
+
+sample-data:n7925  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1992-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n7199  a            vivo:ReviewerRole ;
+        obo:RO_0000052          sample-data:n1736 ;
+        vivo:dateTimeInterval   sample-data:n3257 ;
+        vivo:roleContributesTo  sample-data:n1271 .
+
+sample-data:n6870  a     vivo:FacultyMember ;
+        rdfs:label       "Peters, Jasper I"@en-US ;
+        obo:ARG_2000028  sample-data:n2984 ;
+        obo:RO_0000053   sample-data:n7303 ;
+        vivo:relatedBy   sample-data:n5058 , sample-data:n4531 , sample-data:n2264 , sample-data:n1810 , sample-data:n1467 .
+
+sample-data:n2890  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n1346 .
+
+sample-data:n7491  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n6036 .
+
+sample-data:n5685  a            vivo:EditorRole ;
+        rdfs:label              "Editor in Chief"@en-US ;
+        obo:RO_0000052          sample-data:n1736 ;
+        vivo:dateTimeInterval   sample-data:n2585 ;
+        vivo:roleContributesTo  sample-data:n6748 .
+
+sample-data:n733  a           vivo:FacultyMember ;
+        rdfs:label            "Bogart, Andrew"@en-US ;
+        obo:ARG_2000028       sample-data:n5229 ;
+        vivo:hasResearchArea  sample-data:n2854 ;
+        vivo:relatedBy        sample-data:n2757 , sample-data:n10598 .
+
+sample-data:n1158  a     vivo:Postdoc ;
+        rdfs:label       "Martinez, Claudia"@en-US ;
+        obo:ARG_2000028  sample-data:n4712 ;
+        obo:RO_0000053   sample-data:n2816 , sample-data:n1515 ;
+        vivo:relatedBy   sample-data:n6053 , sample-data:n5058 , sample-data:n2543 .
+
+sample-data:n7975  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2016-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n7257  a     vivo:AcademicDepartment ;
+        rdfs:label       "Chemistry"@en-US ;
+        obo:BFO_0000050  sample-data:n469 ;
+        vivo:relatedBy   sample-data:n1467 .
+
+sample-data:n1116  a         vcard:Address ;
+        vcard:country        "USA"@en-US ;
+        vcard:locality       "Small City"@en-US ;
+        vcard:postalCode     "21626" ;
+        vcard:region         "Kansas"@en-US ;
+        vcard:streetAddress  "1400 Maple Street; "@en-US .
+
+sample-data:n2969  a           vivo:FacultyPosition ;
+        rdfs:label             "Assistant Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n4039 ;
+        vivo:relates           sample-data:n4109 , sample-data:n128 .
+
+sample-data:n3728  a        bibo:AudioDocument ;
+        rdfs:label          "Solo performance of Aida with Philadelphia Orchestra"@en-US ;
+        vivo:dateTimeValue  sample-data:n176 ;
+        vivo:relatedBy      sample-data:n8066 .
+
+sample-data:n2585  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n1071 .
+
+sample-data:n6523  a        skos:Concept ;
+        rdfs:label          "Quantum Physics"@en-US ;
+        vivo:subjectAreaOf  sample-data:n5058 .
+
+sample-data:n620  a             vivo:DateTimeValue ;
+        vivo:dateTime           "2016-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1784  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2013-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n2543  a           vivo:PostdocPosition ;
+        rdfs:label             "Postdoctoral Researcher"@en-US ;
+        vivo:dateTimeInterval  sample-data:n6986 ;
+        vivo:relates           sample-data:n1927 , sample-data:n1158 .
+
+sample-data:n2330  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n3542 .
+
+sample-data:n7123  a  vivo:Authorship ;
+        vivo:rank     "3"^^xsd:int ;
+        vivo:relates  sample-data:n476 , sample-data:n3954 .
+
+sample-data:n8066  a  vivo:Authorship ;
+        vivo:relates  sample-data:n3728 , sample-data:n128 .
+
+sample-data:n37  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n7925 ;
+        vivo:start  sample-data:n6534 .
+
+sample-data:n2238  a         skos:Concept ;
+        rdfs:label           "Civil War Reconstruction"@en-US ;
+        vivo:researchAreaOf  sample-data:n725 .
+
+sample-data:n7578  bibo:volume  "15" ;
+        vivo:dateTimeValue  sample-data:n869 .
+
+sample-data:n1750  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n7460 .
+
+sample-data:n5680  a      vcard:Name ;
+        vcard:familyName  "Roberts"@en-US ;
+        vcard:givenName   "Patricia"@en-US .
+
+sample-data:n6986  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n1581 .
+
+sample-data:n4353  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1998-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1132  a  vcard:Title ;
+        vcard:title  "Associate Professor"@en-US .
+
+sample-data:n24  a              vivo:DateTimeValue ;
+        vivo:dateTime           "2010-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n5617  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n7975 .
+
+sample-data:n3189  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1992-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n3694  a     vivo:Course ;
+        rdfs:label       "ENC 4013 -- Senior Studies"@en-US ;
+        obo:BFO_0000055  sample-data:n269 .
+
+sample-data:n7736  a     vcard:Telephone , vcard:Fax ;
+        vcard:telephone  "555 999 4444" .
+
+sample-data:n6810  a     vivo:University ;
+        rdfs:label       "Sample University"@en-US ;
+        obo:ARG_2000028  sample-data:n1083 ;
+        obo:BFO_0000051  sample-data:n469 , sample-data:n3910 ;
+        obo:RO_0001025   <http://dbpedia.org/resource/Kansas> ;
+        vivo:overview    "Sample University is a <em><strong>fictional university</strong></em> created to demonstrate VIVO features."@en-US .
+
+sample-data:n5504  a         skos:Concept ;
+        rdfs:label           "Political discourse"@en-US ;
+        vivo:researchAreaOf  sample-data:n1736 .
+
+sample-data:n5141  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2016-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n7431  a     vivo:InvitedTalk ;
+        rdfs:label       "Derrida and the Electracy Conundrum"@en-US ;
+        obo:BFO_0000050  sample-data:n4869 ;
+        obo:BFO_0000055  sample-data:n2022 .
+
+sample-data:n5241  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2017-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n5959  a     vcard:Individual ;
+        obo:ARG_2000029  sample-data:n725 ;
+        vcard:hasName    sample-data:n8112 ;
+        vcard:hasTitle   sample-data:n6241 .
+
+sample-data:n8140  a  vcard:Email ;
+        vcard:email  "sample@sample.edu" .
+
+sample-data:n2375  a  vivo:Authorship ;
+        vivo:relates  sample-data:n7979 , sample-data:n1736 .
+
+sample-data:n5938  a      vcard:Name ;
+        vivo:middleName   "K"@en-US ;
+        vcard:familyName  "Stevens"@en-US ;
+        vcard:givenName   "Emily"@en-US .
+
+sample-data:n7460  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2013-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+geo:Poland  rdfs:label          "Poland"@en-US ;
+        vivo:geographicFocusOf  sample-data:n128 .
+
+sample-data:n3910  a     vivo:College ;
+        rdfs:label       "College of Arts and Humanities"@en-US ;
+        obo:BFO_0000050  sample-data:n6810 ;
+        obo:BFO_0000051  sample-data:n4109 , sample-data:n4085 , sample-data:n2837 ;
+        vivo:assigns     sample-data:n4221 ;
+        vivo:overview    "A college of Sample University."@en-US .
+
+sample-data:n3547  a  vcard:Title ;
+        vcard:title  "Postdoctoral Researcher"@en-US .
+
+sample-data:n5249  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1997-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n13084  a           vivo:DateTimeValue ;
+        vivo:dateTime           "1980-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n2938  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2002-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n6534  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1988-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n4085  a           vivo:AcademicDepartment ;
+        rdfs:label             "English"@en-US ;
+        obo:BFO_0000050        sample-data:n3910 ;
+        vivo:contributingRole  sample-data:n5345 ;
+        vivo:relatedBy         sample-data:n3684 , sample-data:n2757 .
+
+sample-data:n439  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n795 .
+
+sample-data:n10598  a  vivo:Authorship ;
+        vivo:rank     "1"^^xsd:int ;
+        vivo:relates  sample-data:n733 , sample-data:n3954 .
+
+sample-data:n176  a             vivo:DateTimeValue ;
+        vivo:dateTime           "2016-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1490  a      vcard:Name ;
+        vivo:middleName   "I"@en-US ;
+        vcard:familyName  "Peters"@en-US ;
+        vcard:givenName   "Jasper"@en-US .
+
+sample-data:n489  a     vivo:University ;
+        rdfs:label      "California Institute of Technology"@en-US ;
+        vivo:relatedBy  sample-data:n2264 .
+
+sample-data:n2854  a         skos:Concept ;
+        rdfs:label           "Rhetoric"@en-US ;
+        vivo:researchAreaOf  sample-data:n733 , sample-data:n1736 .
+
+sample-data:n3776  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1992-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n4343  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n6019 ;
+        vivo:start  sample-data:n6624 .
+
+sample-data:n4869  a     bibo:Conference ;
+        rdfs:label       "17th Annual Conference on Philosophy and Rhetoric"@en-US ;
+        obo:BFO_0000051  sample-data:n7431 .
+
+sample-data:n3542  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2012-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n4109  a     vivo:AcademicDepartment ;
+        rdfs:label       "Music"@en-US ;
+        obo:BFO_0000050  sample-data:n3910 ;
+        vivo:relatedBy   sample-data:n2969 .
+
+sample-data:n476  a      foaf:Person ;
+        rdfs:label       "Stevens, Emily K"@en-US ;
+        obo:ARG_2000028  sample-data:n7188 ;
+        vivo:relatedBy   sample-data:n7123 .
+
+sample-data:n3684  a           vivo:FacultyPosition ;
+        rdfs:label             "Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n2890 ;
+        vivo:relates           sample-data:n4085 , sample-data:n1736 .
+
+sample-data:n363  a             vivo:DateTimeValue ;
+        vivo:dateTime           "2014-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n6053  a           vivo:Grant ;
+        rdfs:label             "NSF Postdoctoral training award"@en-US ;
+        vivo:assignedBy        sample-data:n3787 ;
+        vivo:dateTimeInterval  sample-data:n7274 ;
+        vivo:relates           sample-data:n6446 , sample-data:n2816 , sample-data:n1927 , sample-data:n1158 .
+
+sample-data:n4622  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1992-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1927  a     foaf:Organization , vivo:AcademicDepartment ;
+        rdfs:label       "Physics"@en-US ;
+        obo:BFO_0000050  sample-data:n469 ;
+        obo:RO_0000053   sample-data:n6446 ;
+        vivo:overview    "The Physics Department is in the College of Science of Sample University"@en-US ;
+        vivo:relatedBy   sample-data:n6053 , sample-data:n4531 , sample-data:n2543 .
+
+sample-data:n563  a              vivo:EducationalProcess ;
+        obo:RO_0000057           sample-data:n4762 , sample-data:n1736 ;
+        obo:RO_0002234           sample-data:n3390 ;
+        vivo:dateTimeInterval    sample-data:n7064 ;
+        vivo:departmentOrSchool  "English"@en-US ;
+        vivo:majorField          "Rhetoric"@en-US .
+
+sample-data:n329  a      vcard:Individual ;
+        obo:ARG_2000029  sample-data:n1736 ;
+        vcard:hasName    sample-data:n5680 ;
+        vcard:hasTitle   sample-data:n5218 .
+
+sample-data:n6737  a        bibo:Book ;
+        rdfs:label          "Derrida and Political Discourse"@en-US ;
+        bibo:isbn10         "022635511X" ;
+        vivo:dateTimeValue  sample-data:n190 ;
+        vivo:publisher      sample-data:n6795 ;
+        vivo:relatedBy      sample-data:n1189 .
+
+sample-data:n6019  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2013-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n2757  a           vivo:FacultyPosition ;
+        rdfs:label             "Associate Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n2330 ;
+        vivo:relates           sample-data:n733 , sample-data:n4085 .
+
+sample-data:n5218  a  vcard:Title ;
+        vcard:title  "Professor and Chair"@en-US .
+
+sample-data:n6624  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2013-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n5481  a      vcard:Name ;
+        vcard:familyName  "Bogart"@en-US ;
+        vcard:givenName   "Andrew"@en-US .
+
+sample-data:n700  a            vivo:Committee ;
+        rdfs:label             "University Undergraduate Curriculum Committee"@en-US ;
+        vivo:contributingRole  sample-data:n7238 .
+
+sample-data:n1630  a            vivo:MemberRole ;
+        rdfs:label              "Member"@en-US ;
+        obo:RO_0000052          sample-data:n1736 ;
+        vivo:dateTimeInterval   sample-data:n4097 ;
+        vivo:roleContributesTo  sample-data:n3854 .
+
+sample-data:n1246  a     vivo:Course ;
+        rdfs:label       "ENC 1114 -- Introduction to Rhetoric"@en-US ;
+        obo:BFO_0000055  sample-data:n6983 .
+
+sample-data:n7195  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2001-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1054  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1988-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n7303  a    vivo:AdvisorRole ;
+        obo:RO_0000052  sample-data:n6870 ;
+        vivo:relatedBy  sample-data:n5058 .
+
+sample-data:n1346  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1997-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n3787  a  vivo:ResearchOrganization , vivo:GovernmentAgency , vivo:FundingOrganization ;
+        rdfs:label    "National Science Foundation"@en-US ;
+        vivo:assigns  sample-data:n6053 .
+
+sample-data:n6795  a      vivo:Publisher ;
+        rdfs:label        "University of California Press"@en-US ;
+        vivo:publisherOf  sample-data:n6737 , sample-data:n4860 .
+
+sample-data:n7274  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n5241 ;
+        vivo:start  sample-data:n620 .
+
+sample-data:n6945  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n24 ;
+        vivo:start  sample-data:n7243 .
+
+sample-data:n1467  a           vivo:FacultyPosition ;
+        rdfs:label             "Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n8131 ;
+        vivo:relates           sample-data:n7257 , sample-data:n6870 .
+
+sample-data:n4667  vivo:dateTimeValue  sample-data:n176 .
+
+sample-data:n6561  a         skos:Concept ;
+        rdfs:label           "Electracy"@en-US ;
+        vivo:researchAreaOf  sample-data:n1736 .
+
+sample-data:n1083  a        vcard:Kind , vcard:Individual ;
+        obo:ARG_2000029     sample-data:n6810 ;
+        vcard:hasAddress    sample-data:n1116 ;
+        vcard:hasEmail      sample-data:n8140 ;
+        vcard:hasTelephone  sample-data:n7736 , sample-data:n6093 ;
+        vcard:hasURL        sample-data:n2992 .
+
+sample-data:n8154  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2015-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n6177  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n8154 .
+
+sample-data:n3674  a           vivo:FacultyPosition ;
+        rdfs:label             "Associate Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n37 ;
+        vivo:relates           sample-data:n725 , sample-data:n2837 .
+
+sample-data:n8112  a      vcard:Name ;
+        vivo:middleName   "J"@en-US ;
+        vcard:familyName  "Pierce"@en-US ;
+        vcard:givenName   "Franklin"@en-US .
+
+sample-data:n2681  a           vivo:FacultyPosition ;
+        rdfs:label             "Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n603 ;
+        vivo:relates           sample-data:n725 , sample-data:n2837 .
+
+sample-data:n4704  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2014-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n3390  a     vivo:AwardedDegree ;
+        rdfs:label       "Roberts, Patricia : Ph.D. Doctor of Philosophy"@en-US ;
+        obo:RO_0002353   sample-data:n563 ;
+        vivo:assignedBy  sample-data:n4762 ;
+        vivo:relates     <http://vivoweb.org/ontology/degree/academicDegree98> , sample-data:n1736 .
+
+sample-data:n7979  a              bibo:Chapter ;
+        rdfs:label                "Twitter as Rhetoric"@en-US ;
+        bibo:pageEnd              "289" ;
+        bibo:pageStart            "245" ;
+        vivo:dateTimeValue        sample-data:n1784 ;
+        vivo:hasPublicationVenue  sample-data:n5987 ;
+        vivo:publisher            sample-data:n6356 ;
+        vivo:relatedBy            sample-data:n2375 .
+
+sample-data:n1475  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1984-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1454  a         skos:Concept ;
+        rdfs:label           "Derrida"@en-US ;
+        vivo:researchAreaOf  sample-data:n1736 .
+
+sample-data:n4654  a     vcard:Individual ;
+        obo:ARG_2000029  sample-data:n128 ;
+        vcard:hasName    sample-data:n159 ;
+        vcard:hasTitle   sample-data:n1447 .
+
+sample-data:n6356  a      vivo:Publisher ;
+        rdfs:label        "John Wiley"@en-US ;
+        vivo:publisherOf  sample-data:n7979 , sample-data:n5987 .
+
+sample-data:n3853  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2001-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+<http://vivoweb.org/ontology/degree/academicDegree98>
+        vivo:relatedBy  sample-data:n3390 .
+
+sample-data:n603  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n363 ;
+        vivo:start  sample-data:n3776 .
+
+sample-data:n6093  a     vcard:Telephone ;
+        vcard:telephone  "555 555 1212" .
+
+sample-data:n190  a             vivo:DateTimeValue ;
+        vivo:dateTime           "2001-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n4712  a     vcard:Individual ;
+        obo:ARG_2000029  sample-data:n1158 ;
+        vcard:hasName    sample-data:n6557 ;
+        vcard:hasTitle   sample-data:n3547 .
+
+<http://dbpedia.org/resource/Kansas>
+        obo:RO_0001015  sample-data:n6810 .
+
+sample-data:n6748  a              bibo:Journal ;
+        rdfs:label                "Journal of Political Rhetoric"@en-US ;
+        vivo:contributingRole     sample-data:n722 , sample-data:n5685 ;
+        vivo:publicationVenueFor  sample-data:n3954 .
+
+sample-data:n5058  a           vivo:PostdocOrFellowAdvisingRelationship , vivo:AdvisingRelationship ;
+        rdfs:label             "Peters, Jasper I advising Martinez, Claudia  (Postdoc)"@en-US ;
+        vivo:dateTimeInterval  sample-data:n5617 ;
+        vivo:hasSubjectArea    sample-data:n6523 ;
+        vivo:relates           sample-data:n7303 , sample-data:n6870 , sample-data:n1515 , sample-data:n1158 .
+
+sample-data:n5229  a     vcard:Individual ;
+        obo:ARG_2000029  sample-data:n733 ;
+        vcard:hasName    sample-data:n5481 ;
+        vcard:hasTitle   sample-data:n1132 .
+
+sample-data:n269  a            vivo:TeacherRole ;
+        rdfs:label             "Instructor"@en-US ;
+        obo:BFO_0000054        sample-data:n3694 ;
+        obo:RO_0000052         sample-data:n1736 ;
+        vivo:dateTimeInterval  sample-data:n5929 .
+
+sample-data:n795  a             vivo:DateTimeValue ;
+        vivo:dateTime           "1989-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n4762  a    vivo:University ;
+        rdfs:label      "Harvard University"@en-US ;
+        obo:RO_0000056  sample-data:n563 ;
+        vivo:assigns    sample-data:n3390 .
+
+sample-data:n7064  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n3530 ;
+        vivo:start  sample-data:n3189 .
+
+sample-data:n469  a      vivo:College ;
+        rdfs:label       "College of Science"@en-US ;
+        obo:BFO_0000050  sample-data:n6810 ;
+        obo:BFO_0000051  sample-data:n7257 , sample-data:n1927 ;
+        vivo:overview    "A college of Sample University"@en-US ;
+        vivo:relatedBy   sample-data:n1810 .
+
+sample-data:n4983  a  vcard:Title ;
+        vcard:title  "Professor and Associate Dean"@en-US .
+
+sample-data:n7690  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n1054 ;
+        vivo:start  sample-data:n13084 .
+
+sample-data:n7243  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1999-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n86  a             vivo:FacultyPosition ;
+        rdfs:label             "Assistant Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n7690 ;
+        vivo:relates           sample-data:n725 , sample-data:n2837 .
+
+sample-data:n5345  a            vivo:LeaderRole ;
+        rdfs:label              "Chair"@en-US ;
+        obo:RO_0000052          sample-data:n1736 ;
+        vivo:dateTimeInterval   sample-data:n1750 ;
+        vivo:roleContributesTo  sample-data:n4085 .
+
+sample-data:n4039  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n5141 .
+
+sample-data:n1515  a    vivo:AdviseeRole ;
+        obo:RO_0000052  sample-data:n1158 ;
+        vivo:relatedBy  sample-data:n5058 .
+
+sample-data:n2984  a     vcard:Individual ;
+        obo:ARG_2000029  sample-data:n6870 ;
+        vcard:hasName    sample-data:n1490 ;
+        vcard:hasTitle   sample-data:n4983 .
+
+sample-data:n869  a             vivo:DateTimeValue ;
+        vivo:dateTime           "2015-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n3530  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1997-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n14018  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n1910 ;
+        vivo:start  sample-data:n1475 .
+
+sample-data:n8131  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n4622 .
+
+sample-data:n5929  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n4353 .
+
+sample-data:n1736  a          vivo:FacultyMember ;
+        rdfs:label            "Roberts, Patricia"@en-US ;
+        obo:ARG_2000028       sample-data:n329 ;
+        obo:RO_0000053        sample-data:n7238 , sample-data:n5685 , sample-data:n269 , sample-data:n722 , sample-data:n6983 , sample-data:n7199 , sample-data:n5345 , sample-data:n2022 , sample-data:n1630 ;
+        obo:RO_0000056        sample-data:n563 ;
+        vivo:hasResearchArea  sample-data:n2854 , sample-data:n6561 , sample-data:n1454 , sample-data:n5504 ;
+        vivo:overview         "My research is focused on Derrida and the nature of political discourse in the era of electracy."@en-US ;
+        vivo:relatedBy        sample-data:n2375 , sample-data:n3390 , sample-data:n3684 , sample-data:n1189 , sample-data:n2808 , sample-data:n4221 .
+
+sample-data:n6446  a    vivo:AdministratorRole ;
+        obo:RO_0000052  sample-data:n1927 ;
+        vivo:relatedBy  sample-data:n6053 .
+
+sample-data:n2808  a  vivo:Authorship ;
+        vivo:rank     "2"^^xsd:int ;
+        vivo:relates  sample-data:n3954 , sample-data:n1736 .
+
+sample-data:n4531  a           vivo:FacultyPosition ;
+        rdfs:label             "Professor"@en-US ;
+        vivo:dateTimeInterval  sample-data:n439 ;
+        vivo:relates           sample-data:n6870 , sample-data:n1927 .
+
+sample-data:n2992  a  vcard:URL ;
+        rdfs:label  "Home Page"@en-US ;
+        vivo:rank   "1"^^xsd:int ;
+        vcard:url   "http://sample.edu"^^xsd:anyURI .
+
+sample-data:n159  a       vcard:Name ;
+        vivo:middleName   "Katrinsky"@en-US ;
+        vcard:familyName  "Powell"@en-US ;
+        vcard:givenName   "Suzanne"@en-US .
+
+sample-data:n7238  a            vivo:MemberRole ;
+        rdfs:label              "Chair"@en-US ;
+        obo:RO_0000052          sample-data:n1736 ;
+        vivo:dateTimeInterval   sample-data:n6177 ;
+        vivo:roleContributesTo  sample-data:n700 .
+
+sample-data:n4097  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n4994 ;
+        vivo:start  sample-data:n3853 .
+
+sample-data:n7188  a     vcard:Individual ;
+        obo:ARG_2000029  sample-data:n476 ;
+        vcard:hasName    sample-data:n5938 .
+
+sample-data:n3112  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1997-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1189  a  vivo:Authorship ;
+        vivo:relates  sample-data:n6737 , sample-data:n1736 .
+
+sample-data:n2837  a     vivo:AcademicDepartment ;
+        rdfs:label       "History"@en-US ;
+        obo:BFO_0000050  sample-data:n3910 ;
+        vivo:overview    "The History Department is in the College of Arts and Humanities of Sample University."@en-US ;
+        vivo:relatedBy   sample-data:n86 , sample-data:n3674 , sample-data:n2681 .
+
+sample-data:n722  a             vivo:EditorRole ;
+        rdfs:label              "Associate Editor"@en-US ;
+        obo:RO_0000052          sample-data:n1736 ;
+        vivo:dateTimeInterval   sample-data:n6945 ;
+        vivo:roleContributesTo  sample-data:n6748 .
+
+sample-data:n2816  a           vivo:PrincipalInvestigatorRole ;
+        obo:RO_0000052         sample-data:n1158 ;
+        vivo:dateTimeInterval  sample-data:n7491 ;
+        vivo:relatedBy         sample-data:n6053 .
+
+sample-data:n6241  a  vcard:Title ;
+        vcard:title  "Professor Emeritus"@en-US .
+
+sample-data:n3396  a         skos:Concept ;
+        rdfs:label           "American Civil War"@en-US ;
+        vivo:researchAreaOf  sample-data:n725 .
+
+sample-data:n4155  a  vivo:DateTimeInterval ;
+        vivo:start  sample-data:n4704 .
+
+sample-data:n5987  a              bibo:Book ;
+        rdfs:label                "Social Media as Discourse"@en-US ;
+        vivo:dateTimeValue        sample-data:n1784 ;
+        vivo:publicationVenueFor  sample-data:n7979 ;
+        vivo:publisher            sample-data:n6356 .
+
+sample-data:n4994  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2003-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1581  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2016-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n901  a  vivo:DateTimeInterval ;
+        vivo:end    sample-data:n2938 ;
+        vivo:start  sample-data:n5249 .
+
+sample-data:n4860  vivo:dateTimeValue  sample-data:n190 ;
+        vivo:publisher      sample-data:n6795 .
+
+sample-data:n6036  a            vivo:DateTimeValue ;
+        vivo:dateTime           "2016-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n1810  a           vivo:FacultyAdministrativePosition ;
+        rdfs:label             "Associate Dean for Research"@en-US ;
+        vivo:dateTimeInterval  sample-data:n4155 ;
+        vivo:relates           sample-data:n6870 , sample-data:n469 .
+
+sample-data:n1447  a  vcard:Title ;
+        vcard:title  "Assistant Professor"@en-US .
+
+sample-data:n1910  a            vivo:DateTimeValue ;
+        vivo:dateTime           "1988-01-01T00:00:00"^^xsd:dateTime ;
+        vivo:dateTimePrecision  vivo:yearPrecision .
+
+sample-data:n4221  a        vivo:AwardReceipt ;
+        rdfs:label          "Teacher of the Year (Roberts, Patricia  - 2001)"@en-US ;
+        vivo:assignedBy     sample-data:n3910 ;
+        vivo:dateTimeValue  sample-data:n7195 ;
+        vivo:relates        sample-data:n3407 , sample-data:n1736 .
