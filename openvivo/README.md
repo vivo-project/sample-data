@@ -4,7 +4,7 @@
 
 The data here is a snapshot of the OpenVIVO data.
 
-OpenVIVO contains self-asserted information from researchers around the world.  All informationw in OpenVIVO is identified with persistent identifiers:
+OpenVIVO contains self-asserted information from researchers around the world.  All information in OpenVIVO is identified with persistent identifiers:
 
 * ORCiD for people
 * ISSN for Journals
