@@ -175,7 +175,7 @@ sample-data:n489
   rdfs:label "Institut für Technologie Kalifornien"@de-DE ;
 .
 sample-data:n4983
-  vcard:title  "(German translation) Professor and Associate Dean"@de-DE ;
+  vcard:title  "Professor und stellvertretender Dekan"@de-DE ;
 .
 sample-data:n5058
   rdfs:label "Peters, Jasper I betreut Martinez, Claudia  (Postdoc)"@de-DE ;
