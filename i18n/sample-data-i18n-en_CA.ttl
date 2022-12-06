@@ -85,6 +85,7 @@ sample-data:n1810
 .
 sample-data:n1927
   rdfs:label "Physics"@en-CA ;
+  vivo:overview "The Physics Department is in the College of Science of Sample University"@en-CA ;
 .
 sample-data:n2238
   rdfs:label "Civil War Reconstruction"@en-CA ;
@@ -172,6 +173,9 @@ sample-data:n4869
 .
 sample-data:n489
   rdfs:label "California Institute of Technology"@en-CA ;
+.
+sample-data:n4983
+  vcard:title  "Professor and Associate Dean"@en-CA ;
 .
 sample-data:n5058
   rdfs:label "Peters, Jasper I advising Martinez, Claudia  (Postdoc)"@en-CA ;

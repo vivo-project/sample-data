@@ -87,6 +87,7 @@ sample-data:n1810
 .
 sample-data:n1927
   rdfs:label "Physique"@fr-FR ;
+  vivo:overview "(French France translation) The Physics Department is in the College of Science of Sample University"@fr-FR ;
 .
 sample-data:n2238
   rdfs:label "Reconstruction de la guerre civile"@fr-FR ;
@@ -174,6 +175,9 @@ sample-data:n4869
 .
 sample-data:n489
   rdfs:label "Institut de technologie de Californie"@fr-FR ;
+.
+sample-data:n4983
+  vcard:title  "(French France translation) Professor and Associate Dean"@fr-FR ;
 .
 sample-data:n5058
   rdfs:label "Peters, Jasper I superviseur de Martinez, Claudia (Postdoc)"@fr-FR ;

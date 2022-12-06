@@ -85,6 +85,7 @@ sample-data:n1810
 .
 sample-data:n1927
   rdfs:label "Physik"@de-DE ;
+  vivo:overview "(German translation)The Physics Department is in the College of Science of Sample University"@de-DE ;
 .
 sample-data:n2238
   rdfs:label "Rekonstruktion des Bürgerkriegs"@de-DE ;
@@ -172,6 +173,9 @@ sample-data:n4869
 .
 sample-data:n489
   rdfs:label "Institut für Technologie Kalifornien"@de-DE ;
+.
+sample-data:n4983
+  vcard:title  "(German translation) Professor and Associate Dean"@de-DE ;
 .
 sample-data:n5058
   rdfs:label "Peters, Jasper I betreut Martinez, Claudia  (Postdoc)"@de-DE ;
