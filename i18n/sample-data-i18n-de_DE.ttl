@@ -85,7 +85,7 @@ sample-data:n1810
 .
 sample-data:n1927
   rdfs:label "Physik"@de-DE ;
-  vivo:overview "(German translation)The Physics Department is in the College of Science of Sample University"@de-DE ;
+  vivo:overview "Das Fachgebiet Physik befindet sich an der Fakultät 1 der Hochschule."@de-DE ;
 .
 sample-data:n2238
   rdfs:label "Rekonstruktion des Bürgerkriegs"@de-DE ;
