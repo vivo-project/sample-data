@@ -87,7 +87,7 @@ sample-data:n1810
 .
 sample-data:n1927
   rdfs:label "Physique"@fr-CA ;
-  vivo:overview "(French Canadian translation) The Physics Department is in the College of Science of Sample University"@fr-CA ;
+  vivo:overview "Le département de Physique fait partie du Collège des Sciences de l'Université Exemple."@fr-CA ;
 .
 sample-data:n2238
   rdfs:label "Reconstruction de la guerre civile"@fr-CA ;
