@@ -180,7 +180,7 @@ sample-data:n4983
   vcard:title  "Professeur et Doyen associé"@fr-FR ;
 .
 sample-data:n5058
-  rdfs:label "Peters, Jasper I superviseur de Martinez, Claudia (Postdoc)"@fr-FR ;
+  rdfs:label "Peters, Jasper I est le superviseur de Martinez, Claudia (Postdoc)"@fr-FR ;
 .
 sample-data:n5345
   rdfs:label "Président"@fr-FR ;
