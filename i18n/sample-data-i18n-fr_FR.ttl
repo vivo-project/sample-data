@@ -177,7 +177,7 @@ sample-data:n489
   rdfs:label "Institut de technologie de Californie"@fr-FR ;
 .
 sample-data:n4983
-  vcard:title  "(French France translation) Professor and Associate Dean"@fr-FR ;
+  vcard:title  "Professeur et Doyen associé"@fr-FR ;
 .
 sample-data:n5058
   rdfs:label "Peters, Jasper I superviseur de Martinez, Claudia (Postdoc)"@fr-FR ;
