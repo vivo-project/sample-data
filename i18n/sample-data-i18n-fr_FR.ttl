@@ -87,6 +87,7 @@ sample-data:n1810
 .
 sample-data:n1927
   rdfs:label "Physique"@fr-FR ;
+  vivo:overview "Le département de Physique fait partie du Collège des Sciences de l'Université Exemple de France"@fr-FR ;
 .
 sample-data:n2238
   rdfs:label "Reconstruction de la guerre civile"@fr-FR ;
@@ -175,8 +176,11 @@ sample-data:n4869
 sample-data:n489
   rdfs:label "Institut de technologie de Californie"@fr-FR ;
 .
+sample-data:n4983
+  vcard:title  "Professeur et Doyen associé"@fr-FR ;
+.
 sample-data:n5058
-  rdfs:label "Peters, Jasper I superviseur de Martinez, Claudia (Postdoc)"@fr-FR ;
+  rdfs:label "Peters, Jasper I est le superviseur de Martinez, Claudia (Postdoc)"@fr-FR ;
 .
 sample-data:n5345
   rdfs:label "Président"@fr-FR ;

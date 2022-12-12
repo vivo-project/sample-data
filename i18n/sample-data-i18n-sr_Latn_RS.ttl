@@ -1,6 +1,6 @@
-# baseURI: http://localhost:8080/vivo_i18n/sample-data-i18n-de-DE
+# baseURI: http://localhost:8080/vivo_i18n/sample-data-i18n-sr-Latn-RS
 
-@prefix : <http://localhost:8080/vivo_i18n/sample-data-i18n-de-DE#> .
+@prefix : <http://localhost:8080/vivo_i18n/sample-data-i18n-sr-Latn-RS#> .
 @prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix corpus: <http://topbraid.org/corpus#> .
@@ -69,175 +69,175 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 geo:Poland
-  rdfs:label "Polen"@de-DE ;
+  rdfs:label "Poljska"@sr-Latn-RS ;
 .
 sample-data:n1246
-  rdfs:label "ENC 1114 -- Einführung in die Rhetorik"@de-DE ;
+  rdfs:label "ENC 1114 -- Uvod u besedu"@sr-Latn-RS ;
 .
 sample-data:n1467
-  rdfs:label "Professor"@de-DE ;
+  rdfs:label "Profesor"@sr-Latn-RS ;
 .
 sample-data:n1630
-  rdfs:label "Mitglied"@de-DE ;
+  rdfs:label "Član"@sr-Latn-RS ;
 .
 sample-data:n1810
-  rdfs:label "Stellvertretender Forschungsdekan"@de-DE ;
+  rdfs:label "Prodekan za nauku"@sr-Latn-RS ;
 .
 sample-data:n1927
-  rdfs:label "Physik"@de-DE ;
-  vivo:overview "Das Fachgebiet Physik befindet sich an der Fakultät 1 der Hochschule."@de-DE ;
+  rdfs:label "Fizika"@sr-Latn-RS ;
+  vivo:overview "Odsek za fiziku Prirodno-matematičkog fakulteta Univerziteta"@sr-Latn-RS ;
 .
 sample-data:n2238
-  rdfs:label "Rekonstruktion des Bürgerkriegs"@de-DE ;
+  rdfs:label "Rekonstrukcija građanskog rata"@sr-Latn-RS ;
 .
 sample-data:n2264
-  rdfs:label "Dozent"@de-DE ;
+  rdfs:label "Vanredni profesor"@sr-Latn-RS ;
 .
 sample-data:n2543
-  rdfs:label "Postdoktorand"@de-DE ;
+  rdfs:label "Post-doktorant"@sr-Latn-RS ;
 .
 sample-data:n2681
-  rdfs:label "Professor"@de-DE ;
+  rdfs:label "Profesor"@sr-Latn-RS ;
 .
 sample-data:n269
-  rdfs:label "Referent"@de-DE ;
+  rdfs:label "Instruktor"@sr-Latn-RS ;
 .
 sample-data:n2757
-  rdfs:label "Professor"@de-DE ;
+  rdfs:label "Vanredni profesor"@sr-Latn-RS ;
 .
 sample-data:n2837
-  rdfs:label "Geschichte"@de-DE ;
+  rdfs:label "Istorija"@sr-Latn-RS ;
 .
 sample-data:n2854
-  rdfs:label "Rhetorik"@de-DE ;
+  rdfs:label "Beseda"@sr-Latn-RS ;
 .
 sample-data:n2969
-  rdfs:label "Juniorprofessor"@de-DE ;
+  rdfs:label "Vanredni profesor"@sr-Latn-RS ;
 .
 sample-data:n2992
-  rdfs:label "Homepage"@de-DE ;
+  rdfs:label "Početna strana"@sr-Latn-RS ;
 .
 sample-data:n3390
-  rdfs:label "Roberts, Patricia : Ph.D. Doktor der Philosophie"@de-DE ;
+  rdfs:label "Roberts, Patricia : Doktor nauka"@sr-Latn-RS ;
 .
 sample-data:n3396
-  rdfs:label "Amerikanischer Bürgerkrieg"@de-DE ;
+  rdfs:label "Građanski rat u Americi"@sr-Latn-RS ;
 .
 sample-data:n3407
-  rdfs:label "Lehrer des Jahres"@de-DE ;
+  rdfs:label "Nastavnik godine"@sr-Latn-RS ;
 .
 sample-data:n3674
-  rdfs:label "Professor"@de-DE ;
+  rdfs:label "Vanredni profesor"@sr-Latn-RS ;
 .
 sample-data:n3684
-  rdfs:label "Professor"@de-DE ;
+  rdfs:label "Profesor"@sr-Latn-RS ;
 .
 sample-data:n3694
-  rdfs:label "ENC 4013 -- Hochschulstudium"@de-DE ;
+  rdfs:label "ENC 4013 -- Škola za seniore"@sr-Latn-RS ;
 .
 sample-data:n3728
-  rdfs:label "Soloaufführung von Aida mit dem Philadelphia Orchester"@de-DE ;
+  rdfs:label "Solo izvođenje Aide sa orkestrom iz Filadelfije"@sr-Latn-RS ;
 .
 sample-data:n3787
-  rdfs:label "Nationalfond zur Förderung der Wissenschaftlichen Forschung"@de-DE ;
+  rdfs:label "Nacionalna fondacija za razvoj nauke"@sr-Latn-RS ;
 .
 sample-data:n3854
-  rdfs:label "Berufungskommission der Hochschule für Kunst und Geisteswissenschaften"@de-DE ;
+  rdfs:label "Odbor za radni odnos Fakulteta umetnosti i humanistike"@sr-Latn-RS ;
 .
 sample-data:n3910
-  rdfs:label "Hochschule für Kunst und Geisteswissenschaften"@de-DE ;
+  rdfs:label "Fakultet umetnosti i humanistike"@sr-Latn-RS ;
 .
 sample-data:n3954
-  rdfs:label "Derridas Einfluß auf politische Rhetorik"@de-DE ;
+  rdfs:label "Deridin uticaj na političku retoriku"@sr-Latn-RS ;
 .
 sample-data:n4085
-  rdfs:label "Englisch"@de-DE ;
+  rdfs:label "Engleski"@sr-Latn-RS ;
 .
 sample-data:n4109
-  rdfs:label "Musik"@de-DE ;
+  rdfs:label "Muzika"@sr-Latn-RS ;
 .
 sample-data:n4221
-  rdfs:label "Lehrer des Jahres (Roberts, Patricia  - 2001)"@de-DE ;
+  rdfs:label "Nastavnik godine (Roberts, Patricia  - 2001)"@sr-Latn-RS ;
 .
 sample-data:n4531
-  rdfs:label "Professor"@de-DE ;
+  rdfs:label "Profesor"@sr-Latn-RS ;
 .
 sample-data:n469
-  rdfs:label "Hochschule für Wissenschaft"@de-DE ;
+  rdfs:label "Prirodno-matematički fakultet"@sr-Latn-RS ;
 .
 sample-data:n4762
-  rdfs:label "Harvard Universität"@de-DE ;
+  rdfs:label "Harvard univerzitet"@sr-Latn-RS ;
 .
 sample-data:n4869
-  rdfs:label "17. jährliche Konferenz über Philosophie und Rhetorik"@de-DE ;
+  rdfs:label "17. godišnja konferencija o filozofiji i retorici"@sr-Latn-RS ;
 .
 sample-data:n489
-  rdfs:label "Institut für Technologie Kalifornien"@de-DE ;
+  rdfs:label "Kalifornija institut za tehnologiju"@sr-Latn-RS ;
 .
 sample-data:n4983
-  vcard:title  "Professor und stellvertretender Dekan"@de-DE ;
+  vcard:title  "Profesor i prodekan"@sr-Latn-RS ;
 .
 sample-data:n5058
-  rdfs:label "Peters, Jasper I betreut Martinez, Claudia  (Postdoc)"@de-DE ;
+  rdfs:label "Peters, Jasper I je mentor Martinez, Claudia  (postdoktorant)"@sr-Latn-RS ;
 .
 sample-data:n5345
-  rdfs:label "Vorsitzender"@de-DE ;
+  rdfs:label "Šef"@sr-Latn-RS ;
 .
 sample-data:n5504
-  rdfs:label "Politischer Diskurs"@de-DE ;
+  rdfs:label "Politički diskurs"@sr-Latn-RS ;
 .
 sample-data:n5685
-  rdfs:label "Chefredakteur"@de-DE ;
+  rdfs:label "Glavni urednik"@sr-Latn-RS ;
 .
 sample-data:n5987
-  rdfs:label "Soziale Medien als Diskurs"@de-DE ;
+  rdfs:label "Društveni mediji kao diskurs"@sr-Latn-RS ;
 .
 sample-data:n6053
-  rdfs:label "Ausbildungspreis für Postdoktoranden der NSF"@de-DE ;
+  rdfs:label "NSF nagrada za postdoktorsko usavršavanje"@sr-Latn-RS ;
 .
 sample-data:n6523
-  rdfs:label "Quantenphysik"@de-DE ;
+  rdfs:label "Kvantna fizika"@sr-Latn-RS ;
 .
 sample-data:n6561
-  rdfs:label "Electracy"@de-DE ;
+  rdfs:label "Electracy"@sr-Latn-RS ;
 .
 sample-data:n6737
-  rdfs:label "Derrida und politischer Diskurs"@de-DE ;
+  rdfs:label "Derida i politički diskurs"@sr-Latn-RS ;
 .
 sample-data:n6748
-  rdfs:label "Zeitschrift für politische Rhetorik"@de-DE ;
+  rdfs:label "Časopis za političku retoriku"@sr-Latn-RS ;
 .
 sample-data:n6795
-  rdfs:label "Verlag der Universität von Kalifornien"@de-DE ;
+  rdfs:label "Kalifornijski univerzitet za medije"@sr-Latn-RS ;
 .
 sample-data:n6810
-  rdfs:label "Beispieluniversität"@de-DE ;
+  rdfs:label "Neki univerzitet"@sr-Latn-RS ;
 .
 sample-data:n6983
-  rdfs:label "Dozent"@de-DE ;
+  rdfs:label "Instruktor"@sr-Latn-RS ;
 .
 sample-data:n700
-  rdfs:label "Lehrplanausschuss der Universität"@de-DE ;
+  rdfs:label "Odbor za nastavni plan i program osnovnih studija"@sr-Latn-RS ;
 .
 sample-data:n722
-  rdfs:label "Mitherausgeber"@de-DE ;
+  rdfs:label "Pomoćni urednik"@sr-Latn-RS ;
 .
 sample-data:n7238
-  rdfs:label "Vorsitzender"@de-DE ;
+  rdfs:label "Šef"@sr-Latn-RS ;
 .
 sample-data:n7257
-  rdfs:label "Chemie"@de-DE ;
+  rdfs:label "Hemija"@sr-Latn-RS ;
 .
 sample-data:n7431
-  rdfs:label "Derrida und das Rätsel der Electracy"@de-DE ;
+  rdfs:label "Derida i Electracy zagonetka"@sr-Latn-RS ;
 .
 sample-data:n7979
-  rdfs:label "Twitter als Rhetorik"@de-DE ;
+  rdfs:label "Twitter i retorika"@sr-Latn-RS ;
 .
 sample-data:n86
-  rdfs:label "Juniorprofessor"@de-DE ;
+  rdfs:label "Docent"@sr-Latn-RS ;
 .
-<http://localhost:8080/vivo_i18n/sample-data-i18n-de-DE>
+<http://localhost:8080/vivo_i18n/sample-data-i18n-sr-Latn-RS>
   rdf:type owl:Ontology ;
-  owl:versionInfo "Michel Héon, 2021, for Université du Québec à Montréal, http://uqam.ca " ;
+  owl:versionInfo "Dragan Ivanović, 2022, University of Novi Sad" ;
 .
