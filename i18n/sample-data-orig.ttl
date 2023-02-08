@@ -1,16 +1,18 @@
-@prefix geo:   <http://aims.fao.org/aos/geopolitical.owl#> .
-@prefix :      <http://localhost:8080/vivo_i18n/sample-data-i18n#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+# baseURI: http://localhost:8080/vivo_orig/sample-data-orig
+
+@prefix : <http://localhost:8080/vivo_orig/sample-data-orig#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sample-data: <http://localhost:8080/vivo_orig/individual/> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix bibo:  <http://purl.org/ontology/bibo/> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-@prefix obo:   <http://purl.obolibrary.org/obo/> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 sample-data:n2022  a           vivo:PresenterRole ;
         rdfs:label             "Keynote Speaker"@en-US ;
