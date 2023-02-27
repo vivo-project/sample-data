@@ -1,0 +1,15 @@
+# baseURI: http://vivoweb.org/ontology/propertygroups_fr_CA_x_uqam
+
+@prefix : <http://vivoweb.org/ontology/propertygroups_fr_CA_x_uqam#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vivo: <http://vivoweb.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vivo:vitroPropertyGroupbibliographic
+  rdfs:label "Publications uqam"@fr-CA-x-uqam ;
+.
+vivo:vitroPropertyGrouplinks
+  rdfs:label "Liens uqam"@fr-CA-x-uqam ;
+.

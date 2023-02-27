@@ -1,21 +1,25 @@
-# Sample Data
-
-Sample data is provided for VIVO installations.
-
-We have one sample data set.  It includes people, organizations, papers, grants, memberships, and other elements needed to demonstrate VIVO, and learn more about VIVO's approach to data representation.
-
-In addition, we have data from [OpenVIVO](http://openvivo.org) and from [VIVO at the University of Florida](http://vivo.ufl.edu).  These are "real world" data sets.
-
-## Instructions for use
-
-For instructions, see "Sample Data" in the VIVO documentation https://wiki.duraspace.org/display/VIVODOC110x/Sample+Data
-## Internationalization (i8n)
-
-The `i18n` directory contains the internationalized version of the `sample-data.n3` graph and is distributed by linguistic context according to the following files:
-* `sample-data.ttl` is the TURTLE copy of `sample-data.n3`.
-* `sample-data-en_US.ttl` contains the U.S. English (`en_US`) labels of each resource contained in `sample-data.ttl`.
-* `sample-data-fr_CA.ttl` contains the French Canadian (`fr_CA`) labels for each resource contained in `sample-data.ttl`.
-
-
+ # Sample Data
  
-
+ Sample data provided for VIVO installations.
+ 
+ We have one [simple sample data set](./testdata/README.md).  It includes people, organizations, papers, grants, memberships, 
+ and other elements needed to demonstrate VIVO, and learn more about VIVO's approach to data representation. 
+ 
+ There is also internationalized sample data set in [i18n directory](./i18n/README.md) 
+ 
+ In addition, we have data from [OpenVIVO](http://openvivo.org) and from [VIVO at the University of Florida](http://vivo.ufl.edu).  These are "real world" data sets.
+ 
+ ## Installation of sample data
+ 
+ The data can be ingested by copying complete content except the README.md file of any subdirectory ([testdata](./testdata), [i18n](./i18n), 
+ [openvivo](./openvivo), [uf](./uf)) into the VIVO_HOME/rdf/ directory and restarting Tomcat server. 
+ 
+ In the case of i18n sample data, before restarting server, please check whether languages are includes in the runtime.properties:
+```
+RDFService.languageFilter = true
+languages.selectableLocales = en_US, de_DE, sr_Latn_RS, ru_RU, fr_CA, en_CA, es, pt_BR, fr_CA_x_uqam
+```
+ 
+The sample data might be also ingested through VIVO user interface by following the instructions at 
+https://wiki.lyrasis.org/display/VIVODOC114x/Sample+Data
+  
