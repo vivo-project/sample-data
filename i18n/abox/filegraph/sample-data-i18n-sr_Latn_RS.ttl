@@ -1,0 +1,243 @@
+# baseURI: http://localhost:8080/vivo_i18n/sample-data-i18n-sr-Latn-RS
+
+@prefix : <http://localhost:8080/vivo_i18n/sample-data-i18n-sr-Latn-RS#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix corpus: <http://topbraid.org/corpus#> .
+@prefix crosswalk: <http://topbraid.org/crosswalk#> .
+@prefix crosswalk.spin: <http://topbraid.org/crosswalk.spin#> .
+@prefix crosswalkapp: <http://topbraid.org/swa/crosswalkapp#> .
+@prefix crosswalkprojects: <http://teamwork.topbraidlive.org/crosswalkprojects#> .
+@prefix evnconstraints: <http://topbraid.org/spin/evnconstraints#> .
+@prefix evnui: <http://evn.topbraidlive.org/ui#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix governance: <http://topbraid.org/teamworkgovernance.ui#> .
+@prefix html: <http://uispin.org/html#> .
+@prefix jfn: <java:org.apache.jena.sparql.function.library.> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ontologyprojects: <http://teamwork.topbraidlive.org/ontologyprojects#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owlrl: <http://topbraid.org/spin/owlrl#> .
+@prefix pf: <http://jena.hpl.hp.com/ARQ/property#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix safconfig: <http://topbraid.org/safconfig/> .
+@prefix safm: <http://saf.topbraidlive.org/metaschema/> .
+@prefix sample-data: <http://localhost:8080/vivo_i18n/individual/> .
+@prefix savedQueries: <http://teamwork.topbraidlive.org/ui/savedQueries#> .
+@prefix search: <http://topbraid.org/search#> .
+@prefix sharepoint: <http://topbraid.org/sharepoint#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosspin: <http://topbraid.org/spin/skosspin#> .
+@prefix skostemplate: <http://topbraid.org/spin/skostemplates#> .
+@prefix sm: <http://topbraid.org/sparqlmotion#> .
+@prefix sm2wsdl: <http://topbraid.org/sparqlmotion/sm2wsdl.sms#> .
+@prefix smf: <http://topbraid.org/sparqlmotionfunctions#> .
+@prefix sml: <http://topbraid.org/sparqlmotionlib#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spif: <http://spinrdf.org/spif#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix spinmap: <http://spinrdf.org/spinmap#> .
+@prefix spinmapl: <http://topbraid.org/spin/spinmapl#> .
+@prefix spl: <http://spinrdf.org/spl#> .
+@prefix spr: <http://spinrdf.org/spr#> .
+@prefix spra: <http://spinrdf.org/spra#> .
+@prefix swa: <http://topbraid.org/swa#> .
+@prefix swaclasses: <http://topbraid.org/swaclasses#> .
+@prefix swauml: <http://topbraid.org/swauml#> .
+@prefix swon: <http://uispin.org/swon#> .
+@prefix tables: <http://topbraid.org/tables#> .
+@prefix tablesmap: <http://topbraid.org/spin/tablesmap#> .
+@prefix tagger: <http://evn.topbraidlive.org/tagger#> .
+@prefix tasks: <http://topbraid.org/tasks#> .
+@prefix taxonomies: <http://evn.topbraidlive.org/evnprojects#> .
+@prefix tbladmin: <http://server.topbraidlive.org/system-applications/tbladmin#> .
+@prefix teamwork: <http://topbraid.org/teamwork#> .
+@prefix teamworkupdate: <http://teamworkAPI.topbraid.com/teamworkUpdate#> .
+@prefix textindex: <http://topbraid.org/textindex#> .
+@prefix tops: <http://www.topbraid.org/tops#> .
+@prefix tosh.ui: <http://topbraid.org/tosh.ui#> .
+@prefix tracker: <http://teamwork.topbraidlive.org/ui/tracker#> .
+@prefix ui: <http://uispin.org/ui#> .
+@prefix uix: <http://topbraidlive.org/uix#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix vivo-sample_fr-localhost: <http://localhost:8080/vivo/vivo-sample_fr-localhost#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+geo:Poland
+  rdfs:label "Poljska"@sr-Latn-RS ;
+.
+sample-data:n1246
+  rdfs:label "ENC 1114 -- Uvod u besedu"@sr-Latn-RS ;
+.
+sample-data:n1467
+  rdfs:label "Profesor"@sr-Latn-RS ;
+.
+sample-data:n1630
+  rdfs:label "Član"@sr-Latn-RS ;
+.
+sample-data:n1810
+  rdfs:label "Prodekan za nauku"@sr-Latn-RS ;
+.
+sample-data:n1927
+  rdfs:label "Fizika"@sr-Latn-RS ;
+  vivo:overview "Odsek za fiziku Prirodno-matematičkog fakulteta Univerziteta"@sr-Latn-RS ;
+.
+sample-data:n2238
+  rdfs:label "Rekonstrukcija građanskog rata"@sr-Latn-RS ;
+.
+sample-data:n2264
+  rdfs:label "Vanredni profesor"@sr-Latn-RS ;
+.
+sample-data:n2543
+  rdfs:label "Post-doktorant"@sr-Latn-RS ;
+.
+sample-data:n2681
+  rdfs:label "Profesor"@sr-Latn-RS ;
+.
+sample-data:n269
+  rdfs:label "Instruktor"@sr-Latn-RS ;
+.
+sample-data:n2757
+  rdfs:label "Vanredni profesor"@sr-Latn-RS ;
+.
+sample-data:n2837
+  rdfs:label "Istorija"@sr-Latn-RS ;
+.
+sample-data:n2854
+  rdfs:label "Beseda"@sr-Latn-RS ;
+.
+sample-data:n2969
+  rdfs:label "Vanredni profesor"@sr-Latn-RS ;
+.
+sample-data:n2992
+  rdfs:label "Početna strana"@sr-Latn-RS ;
+.
+sample-data:n3390
+  rdfs:label "Roberts, Patricia : Doktor nauka"@sr-Latn-RS ;
+.
+sample-data:n3396
+  rdfs:label "Građanski rat u Americi"@sr-Latn-RS ;
+.
+sample-data:n3407
+  rdfs:label "Nastavnik godine"@sr-Latn-RS ;
+.
+sample-data:n3674
+  rdfs:label "Vanredni profesor"@sr-Latn-RS ;
+.
+sample-data:n3684
+  rdfs:label "Profesor"@sr-Latn-RS ;
+.
+sample-data:n3694
+  rdfs:label "ENC 4013 -- Škola za seniore"@sr-Latn-RS ;
+.
+sample-data:n3728
+  rdfs:label "Solo izvođenje Aide sa orkestrom iz Filadelfije"@sr-Latn-RS ;
+.
+sample-data:n3787
+  rdfs:label "Nacionalna fondacija za razvoj nauke"@sr-Latn-RS ;
+.
+sample-data:n3854
+  rdfs:label "Odbor za radni odnos Fakulteta umetnosti i humanistike"@sr-Latn-RS ;
+.
+sample-data:n3910
+  rdfs:label "Fakultet umetnosti i humanistike"@sr-Latn-RS ;
+.
+sample-data:n3954
+  rdfs:label "Deridin uticaj na političku retoriku"@sr-Latn-RS ;
+.
+sample-data:n4085
+  rdfs:label "Engleski"@sr-Latn-RS ;
+.
+sample-data:n4109
+  rdfs:label "Muzika"@sr-Latn-RS ;
+.
+sample-data:n4221
+  rdfs:label "Nastavnik godine (Roberts, Patricia  - 2001)"@sr-Latn-RS ;
+.
+sample-data:n4531
+  rdfs:label "Profesor"@sr-Latn-RS ;
+.
+sample-data:n469
+  rdfs:label "Prirodno-matematički fakultet"@sr-Latn-RS ;
+.
+sample-data:n4762
+  rdfs:label "Harvard univerzitet"@sr-Latn-RS ;
+.
+sample-data:n4869
+  rdfs:label "17. godišnja konferencija o filozofiji i retorici"@sr-Latn-RS ;
+.
+sample-data:n489
+  rdfs:label "Kalifornija institut za tehnologiju"@sr-Latn-RS ;
+.
+sample-data:n4983
+  vcard:title  "Profesor i prodekan"@sr-Latn-RS ;
+.
+sample-data:n5058
+  rdfs:label "Peters, Jasper I je mentor Martinez, Claudia  (postdoktorant)"@sr-Latn-RS ;
+.
+sample-data:n5345
+  rdfs:label "Šef"@sr-Latn-RS ;
+.
+sample-data:n5504
+  rdfs:label "Politički diskurs"@sr-Latn-RS ;
+.
+sample-data:n5685
+  rdfs:label "Glavni urednik"@sr-Latn-RS ;
+.
+sample-data:n5987
+  rdfs:label "Društveni mediji kao diskurs"@sr-Latn-RS ;
+.
+sample-data:n6053
+  rdfs:label "NSF nagrada za postdoktorsko usavršavanje"@sr-Latn-RS ;
+.
+sample-data:n6523
+  rdfs:label "Kvantna fizika"@sr-Latn-RS ;
+.
+sample-data:n6561
+  rdfs:label "Electracy"@sr-Latn-RS ;
+.
+sample-data:n6737
+  rdfs:label "Derida i politički diskurs"@sr-Latn-RS ;
+.
+sample-data:n6748
+  rdfs:label "Časopis za političku retoriku"@sr-Latn-RS ;
+.
+sample-data:n6795
+  rdfs:label "Kalifornijski univerzitet za medije"@sr-Latn-RS ;
+.
+sample-data:n6810
+  rdfs:label "Neki univerzitet"@sr-Latn-RS ;
+.
+sample-data:n6983
+  rdfs:label "Instruktor"@sr-Latn-RS ;
+.
+sample-data:n700
+  rdfs:label "Odbor za nastavni plan i program osnovnih studija"@sr-Latn-RS ;
+.
+sample-data:n722
+  rdfs:label "Pomoćni urednik"@sr-Latn-RS ;
+.
+sample-data:n7238
+  rdfs:label "Šef"@sr-Latn-RS ;
+.
+sample-data:n7257
+  rdfs:label "Hemija"@sr-Latn-RS ;
+.
+sample-data:n7431
+  rdfs:label "Derida i Electracy zagonetka"@sr-Latn-RS ;
+.
+sample-data:n7979
+  rdfs:label "Twitter i retorika"@sr-Latn-RS ;
+.
+sample-data:n86
+  rdfs:label "Docent"@sr-Latn-RS ;
+.
+<http://localhost:8080/vivo_i18n/sample-data-i18n-sr-Latn-RS>
+  rdf:type owl:Ontology ;
+  owl:versionInfo "Dragan Ivanović, 2022, University of Novi Sad" ;
+.
