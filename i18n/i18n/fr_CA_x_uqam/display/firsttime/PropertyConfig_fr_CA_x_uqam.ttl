@@ -1,0 +1,380 @@
+# baseURI: http://vivoweb.org/ontology/vitroAnnotation_fr_CA_x_uqam
+
+@prefix : <http://vivoweb.org/ontology/vitroAnnotation_fr_CA_x_uqam#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
+@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
+@prefix ocresp: <http://purl.org/net/OCRe/study_protocol.owl#> .
+@prefix ocrest: <http://purl.org/net/OCRe/statistics.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ro: <http://purl.obolibrary.org/obo/ro.owl#> .
+@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix swo: <http://www.ebi.ac.uk/efo/swo/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vitro-appconf: <http://vitro.mannlib.cornell.edu/ns/vitro/ApplicationConfiguration#> .
+@prefix vitro-config: <http://vitro.mannlib.cornell.edu/ns/vitro/siteConfig/> .
+@prefix vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vitro-config:additionalEmailConfig
+  vitro-appconf:displayName "courriels additionnels uqam"@fr-CA-x-uqam ;
+.
+vitro-config:addressLocationConfig
+  vitro-appconf:displayName "lieu uqam"@fr-CA-x-uqam ;
+.
+vitro-config:adviseeRoleConfig
+  vitro-appconf:displayName "mentoré(e) par uqam"@fr-CA-x-uqam ;
+.
+vitro-config:advisorRoleConfig
+  vitro-appconf:displayName "Direction et mentorat uqam"@fr-CA-x-uqam ;
+.
+vitro-config:agentInFacilityConfig
+  vitro-appconf:displayName "situé dans l'établissement uqam"@fr-CA-x-uqam ;
+.
+vitro-config:agentInGeoLocationConfig
+  vitro-appconf:displayName "lieu uqam"@fr-CA-x-uqam ;
+.
+vitro-config:authorInAuthorshipConfig
+  vitro-appconf:displayName "publications choisies uqam"@fr-CA-x-uqam ;
+.
+vitro-config:awardConferredByConfig
+  vitro-appconf:displayName "prix conféré par uqam"@fr-CA-x-uqam ;
+.
+vitro-config:awardOrHonorConfig
+  vitro-appconf:displayName "prix et distinctions uqam"@fr-CA-x-uqam ;
+.
+vitro-config:awardOrHonorGivenConfig
+  vitro-appconf:displayName "prix et distinctions attribués uqam"@fr-CA-x-uqam ;
+.
+vitro-config:awardOrHonorReceiptsConfig
+  vitro-appconf:displayName "prix reçus uqam"@fr-CA-x-uqam ;
+.
+vitro-config:awardReceiptsAwardForConfig
+  vitro-appconf:displayName "prix et distinctions reçus uqam"@fr-CA-x-uqam ;
+.
+vitro-config:awardReceiptsConfig
+  vitro-appconf:displayName "prix reçus uqam"@fr-CA-x-uqam ;
+.
+vitro-config:bfo_0000055Config
+  vitro-appconf:displayName "participant uqam"@fr-CA-x-uqam ;
+.
+vitro-config:collegeOffersDegreeConfig
+  vitro-appconf:displayName "diplômes offerts uqam"@fr-CA-x-uqam ;
+.
+vitro-config:contractAdministeredByConfig
+  vitro-appconf:displayName "administré par uqam"@fr-CA-x-uqam ;
+.
+vitro-config:contractAwardedByConfig
+  vitro-appconf:displayName "prix offert par uqam"@fr-CA-x-uqam ;
+.
+vitro-config:contractRelatesConfig
+  vitro-appconf:displayName "contributeur uqam"@fr-CA-x-uqam ;
+.
+vitro-config:courseOfferedByConfig
+  vitro-appconf:displayName "offert par uqam"@fr-CA-x-uqam ;
+.
+vitro-config:credentialOfConfig
+  vitro-appconf:displayName "diplômes de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:deptOffersDegreeConfig
+  vitro-appconf:displayName "diplômes offerts uqam"@fr-CA-x-uqam ;
+.
+vitro-config:documentHasPartConfig
+  vitro-appconf:displayName "document constitué de parties uqam"@fr-CA-x-uqam ;
+.
+vitro-config:documentPartOfConfig
+  vitro-appconf:displayName "parties d'autres documents uqam"@fr-CA-x-uqam ;
+.
+vitro-config:editorOfConfig
+  vitro-appconf:displayName "Éditeur uqam"@fr-CA-x-uqam ;
+.
+vitro-config:educationalProcessDegreeConfig
+  vitro-appconf:displayName "diplôme obtenu uqam"@fr-CA-x-uqam ;
+.
+vitro-config:educationalProcessOrgConfig
+  vitro-appconf:displayName "organisation d'enseignement uqam"@fr-CA-x-uqam ;
+.
+vitro-config:educationalProcessPersonConfig
+  vitro-appconf:displayName "enseignement et formation uqam"@fr-CA-x-uqam ;
+.
+vitro-config:educationalTrainingConfig
+  vitro-appconf:displayName "enseignement et formation uqam"@fr-CA-x-uqam ;
+.
+vitro-config:eventInFacilityConfig
+  vitro-appconf:displayName "tenu dans les installations uqam"@fr-CA-x-uqam ;
+.
+vitro-config:eventLocationConfig
+  vitro-appconf:displayName "tenu à uqam"@fr-CA-x-uqam ;
+.
+vitro-config:eventWithinConfig
+  vitro-appconf:displayName "se produit dans l'événement uqam"@fr-CA-x-uqam ;
+.
+vitro-config:eventsForSeriesConfig
+  vitro-appconf:displayName "événements dans cette collection uqam"@fr-CA-x-uqam ;
+.
+vitro-config:facilityLocationOfEquipmentConfig
+  vitro-appconf:displayName "location d'équipements ou d'instruments uqam"@fr-CA-x-uqam ;
+.
+vitro-config:facilityLocationOfServiceConfig
+  vitro-appconf:displayName "installations pour service uqam"@fr-CA-x-uqam ;
+.
+vitro-config:facilitySiteOfAgentConfig
+  vitro-appconf:displayName "installations destinées aux personnes, groupes ou organisations uqam"@fr-CA-x-uqam ;
+.
+vitro-config:facilitySiteOfEventConfig
+  vitro-appconf:displayName "localisation des installations uqam"@fr-CA-x-uqam ;
+.
+vitro-config:fullNameConfig
+  vitro-appconf:displayName "nom complet uqam"@fr-CA-x-uqam ;
+.
+vitro-config:geographicLocationContainsBuildingConfig
+  vitro-appconf:displayName "localisation des installations uqam"@fr-CA-x-uqam ;
+.
+vitro-config:geographicLocationContainsLocationConfig
+  vitro-appconf:displayName "partie uqam"@fr-CA-x-uqam ;
+.
+vitro-config:geographicLocationWithinLocationConfig
+  vitro-appconf:displayName "partie de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:grantAdministeredByConfig
+  vitro-appconf:displayName "administré par uqam"@fr-CA-x-uqam ;
+.
+vitro-config:grantAwardedByConfig
+  vitro-appconf:displayName "subvention offerte par uqam"@fr-CA-x-uqam ;
+.
+vitro-config:grantGeographicFocusConfig
+  vitro-appconf:displayName "aspect géographique uqam"@fr-CA-x-uqam ;
+.
+vitro-config:grantHasSubgrantConfig
+  vitro-appconf:displayName "sous-subventions incluses  uqam"@fr-CA-x-uqam ;
+.
+vitro-config:grantIsSubgrantOfConfig
+  vitro-appconf:displayName "sous-subvention de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:grantRelatesConfig
+  vitro-appconf:displayName "contributeur uqam"@fr-CA-x-uqam ;
+.
+vitro-config:grantSubjectAreaConfig
+  vitro-appconf:displayName "domaine de recherche uqam"@fr-CA-x-uqam ;
+.
+vitro-config:groupHasEditorRoleConfig
+  vitro-appconf:displayName "Éditeur(-trice) collectif(-ive) de collection uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasAttendeeRoleConfig
+  vitro-appconf:displayName "Événements uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasClinicalRoleConfig
+  vitro-appconf:displayName "Activités cliniques uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasCo-PrincipalInvestigatorRoleConfig
+  vitro-appconf:displayName "Co-chercheur(-euse) principal(e) uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasCollaboratorConfig
+  vitro:publicDescriptionAnnot "Utilisez pour une simple affirmation qu'une autre personne est un collaborateur permanent ou pour décrire la relation plus en détail. Entrez un rôle pour chaque collaborateur dans une activité conjointe. uqam"@fr-CA-x-uqam ;
+  vitro-appconf:displayName "Collaborateur(-trice) uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasEditorRoleConfig
+  vitro-appconf:displayName "Responsable de collection uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasInvestigatorRoleConfig
+  vitro-appconf:displayName "Chercheur(-euse) uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasLeaderRoleConfig
+  vitro-appconf:displayName "Direction de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasMemberRoleConfig
+  vitro-appconf:displayName "Membre de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasOrganizerRoleConfig
+  vitro-appconf:displayName "Organisateur d'événement uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasOutputConfig
+  vitro-appconf:displayName "publications ou autres résultats uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasOutreachProviderRoleConfig
+  vitro-appconf:displayName "Mobilisation des connaissances uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasPresenterRoleConfig
+  vitro-appconf:displayName "Présentations uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasPrincipalInvestigatorRoleConfig
+  vitro-appconf:displayName "Chercheur(-euse) principal(e) uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasResearcherRoleConfig
+  vitro-appconf:displayName "Autres activités de recherche uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasReviewerRoleConfig
+  vitro-appconf:displayName "Évaluateur(-trice) uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasRoomConfig
+  vitro-appconf:displayName "salles uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasServiceProviderRoleConfig
+  vitro-appconf:displayName "activités professionnelles uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasSubOrganizationConfig
+  vitro-appconf:displayName "sous-organisation uqam"@fr-CA-x-uqam ;
+.
+vitro-config:hasTeacherRoleConfig
+  vitro-appconf:displayName "Activités d'enseignement uqam"@fr-CA-x-uqam ;
+.
+vitro-config:inEventSeriesConfig
+  vitro-appconf:displayName "dans une collection d'événements uqam"@fr-CA-x-uqam ;
+.
+vitro-config:includesEventConfig
+  vitro-appconf:displayName "Événements inclus uqam"@fr-CA-x-uqam ;
+.
+vitro-config:informationResourceInAuthorshipConfig
+  vitro-appconf:displayName "auteur(e)s uqam"@fr-CA-x-uqam ;
+.
+vitro-config:informationResourceInEditorshipConfig
+  vitro-appconf:displayName "éditeur(-trice)s uqam"@fr-CA-x-uqam ;
+.
+vitro-config:issuedCredentialConfig
+  vitro-appconf:displayName "diplômes uqam"@fr-CA-x-uqam ;
+.
+vitro-config:labOffersServiceConfig
+  vitro-appconf:displayName "services offerts uqam"@fr-CA-x-uqam ;
+.
+vitro-config:mailingAddressConfig
+  vitro-appconf:displayName "adresse postale uqam"@fr-CA-x-uqam ;
+.
+vitro-config:mailingAddressOrgConfig
+  vitro-appconf:displayName "adresse postale uqam"@fr-CA-x-uqam ;
+.
+vitro-config:materialEntityInFacilityConfig
+  vitro-appconf:displayName "hébergé dans les installations uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgAdministersGrantConfig
+  vitro-appconf:displayName "administre les subventions uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgAwardsGrantConfig
+  vitro-appconf:displayName "subventions accordées uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgFaxConfig
+  vitro-appconf:displayName "télécopieur uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasAttendeeRoleConfig
+  vitro-appconf:displayName "Organisation participante à l'événement uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasAwardOrHonorConfig
+  vitro-appconf:displayName "prix et distinctions reçus uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasClinicalRoleConfig
+  vitro-appconf:displayName "Activités cliniques uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasCollaboratorConfig
+  vitro-appconf:displayName "organisation ou groupe collaborateur uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasLeaderRoleConfig
+  vitro-appconf:displayName "Organisation directrice de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasMemberRoleConfig
+  vitro-appconf:displayName "Membre de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasOrganizerRoleConfig
+  vitro-appconf:displayName "Organisation organisatrice de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasOutreachProviderRoleConfig
+  vitro-appconf:displayName "Mobilisation des connaissances uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgHasPresenterRoleConfig
+  vitro-appconf:displayName "Présentations uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgInAuthorshipConfig
+  vitro-appconf:displayName "publications choisies uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgOffersCourseConfig
+  vitro-appconf:displayName "offre des cours uqam"@fr-CA-x-uqam ;
+.
+vitro-config:orgTelephoneConfig
+  vitro-appconf:displayName "téléphone uqam"@fr-CA-x-uqam ;
+.
+vitro-config:organizationEmailConfig
+  vitro-appconf:displayName "courriel uqam"@fr-CA-x-uqam ;
+.
+vitro-config:organizationForPositionConfig
+  vitro-appconf:displayName "personnes uqam"@fr-CA-x-uqam ;
+.
+vitro-config:organizationForTrainingConfig
+  vitro-appconf:displayName "organisation de formation uqam"@fr-CA-x-uqam ;
+.
+vitro-config:outputOfConfig
+  vitro-appconf:displayName "résultat du processus ou de l'événement uqam"@fr-CA-x-uqam ;
+.
+vitro-config:personFaxConfig
+  vitro-appconf:displayName "télécopieur uqam"@fr-CA-x-uqam ;
+.
+vitro-config:personInPositionConfig
+  vitro-appconf:displayName "Poste uqam"@fr-CA-x-uqam ;
+.
+vitro-config:personTelephoneConfig
+  vitro-appconf:displayName "téléphone uqam"@fr-CA-x-uqam ;
+.
+vitro-config:preferredTitleConfig
+  vitro-appconf:displayName "Titre préféré uqam"@fr-CA-x-uqam ;
+.
+vitro-config:primaryEmailConfig
+  vitro-appconf:displayName "courriel principal uqam"@fr-CA-x-uqam ;
+.
+vitro-config:publicationDateConfig
+  vitro-appconf:displayName "date de publication uqam"@fr-CA-x-uqam ;
+.
+vitro-config:roomWithinBuildingConfig
+  vitro-appconf:displayName "dans l'édifice uqam"@fr-CA-x-uqam ;
+.
+vitro-config:siteGeographicallyWithinGeoLocationConfig
+  vitro-appconf:displayName "géographiquement situé au sein de uqam"@fr-CA-x-uqam ;
+.
+vitro-config:subOrganizationWithinConfig
+  vitro-appconf:displayName "organisation interne à uqam"@fr-CA-x-uqam ;
+.
+vitro-config:uniOffersDegreeConfig
+  vitro-appconf:displayName "diplômes offerts uqam"@fr-CA-x-uqam ;
+.
+vitro-config:webpageEventConfig
+  vitro-appconf:displayName "page web uqam"@fr-CA-x-uqam ;
+.
+vitro-config:webpageEventSeriesConfig
+  vitro-appconf:displayName "page web uqam"@fr-CA-x-uqam ;
+.
+vitro-config:webpageFacilityConfig
+  vitro-appconf:displayName "page web uqam"@fr-CA-x-uqam ;
+.
+vitro-config:webpageInfoConfig
+  vitro-appconf:displayName "page web uqam"@fr-CA-x-uqam ;
+.
+vitro-config:webpageOrgConfig
+  vitro-appconf:displayName "page web uqam"@fr-CA-x-uqam ;
+.
+vitro-config:webpagePersonConfig
+  vitro-appconf:displayName "page web uqam"@fr-CA-x-uqam ;
+.
+vitro-config:webpageProjectConfig
+  vitro-appconf:displayName "page web uqam"@fr-CA-x-uqam ;
+.
+vitro-config:webpageSoftwareConfig
+  vitro-appconf:displayName "page web uqam"@fr-CA-x-uqam ;
+.
+vitro-config:yearAwardedConfig
+  vitro-appconf:displayName "année primée uqam"@fr-CA-x-uqam ;
+.
+<http://vivoweb.org/ontology/vitroAnnotation_fr_CA_x_uqam>
+  a owl:Ontology ;
+  owl:versionInfo "Adapted by Michel Héon, 2020, for Université du Québec à Montréal, http://uqam.ca" ;
+  owl:versionInfo "Translated by Pierre Roberge, 2020,  for Université du Québec à Montréal, http://uqam.ca" ;
+.

@@ -1,1 +1,0 @@
-This directory contains various knowledge graphs needed to run regression tests
